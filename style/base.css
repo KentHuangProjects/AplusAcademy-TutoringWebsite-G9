@@ -1,0 +1,172 @@
+/* Reset padding and margin */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    
+}
+
+/* The wrapper for the whole page */
+#main-wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+/* The main header of the page */
+#main-header {
+    width: 100%;
+	height: 150px;
+	background-color: white;
+	color: #365eb0;
+	top: 0;
+	left: 0;
+	border-top: 10px solid gray;
+	z-index:1;
+}
+
+#title {
+	text-align:center;    
+}
+
+#main-header img {
+	float: left;
+	margin-top: 25px;
+	margin-left: 25px;
+	padding-right: 10px;
+}
+
+#signin {
+	float: right;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#title #signin span {
+	font-size: 0.7em;
+	margin-left: 1em;
+}
+
+/* Style for the paragraph tag inside the header div */
+#main-header p {
+	float: left;
+	margin-top: 35px;
+	font-size: 28px;
+	color: #a3a3a3;
+}
+
+#title2{
+	color:white; 
+}
+
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	z-index: 1;
+}
+
+#navbar {
+    z-index: 10;
+	margin: 0;
+	padding: 0;
+	float: left;
+    width: 100%;
+}
+
+#navbar li{
+    z-index: 1;
+	list-style-type: none;
+	padding: 10px 0 10px 0;
+	float: left;
+	width: 20%;
+	text-align: center;
+	position: relative;
+	color: #08090A;
+	display: inline;
+
+	/* outside source */
+	background: #efefef;
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	  
+}
+
+#navbar li.subject {
+    width: 100%;
+}
+
+#navbar li.subject ul li {
+    width: 200px;
+}
+
+#navbar > li:first-of-type {
+    border-radius: 5px 0px 0px 0px;
+}
+
+#navbar > li:last-of-type {
+    border-radius: 5px 5px 0px 0px;
+}
+
+#navbar ul li:last-of-type {
+    border-radius: 0px 0px 5px 5px; 
+}
+
+#navbar li a{
+    text-decoration: none;
+}
+
+#navbar li a:link{
+    color: #365eb0;
+}
+
+#navbar li a:visited{
+    color: #365eb0;
+}
+
+#navbar ul {
+	list-style-type: none;
+	display: none;
+    position: absolute;
+    left: 0;
+    top:  100%;
+}
+
+/* appear to the side of list bar */
+#navbar ul ul {
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+
+#navbar li:hover > ul {
+	display: block;
+}
+
+#navbar li a:hover:not(.active){
+	color: #F4AC42;
+}
+
+/* Division containing the whole content */
+#main-content {
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+/* The main footer of the page */
+#main-footer {
+    width:100%;
+	text-align:center;
+	letter-spacing: 3px;
+	font-weight:bold;
+	margin: 0px auto;
+	padding: 20px 0px;
+	background-color:#003C79;
+	color:#ffffff;
+    clear: both;
+}

@@ -1,0 +1,57 @@
+body {
+}
+
+/* A content block in the main content block of the page */
+.content-block {
+  padding:20px;
+  margin: 10px 0px;
+  border: 1px solid blue;
+  text-align: center;
+  clear: both;
+  }
+
+.content-block > img, .content-block > div {
+  display: inline-block;
+  border:1px solid blue;
+  }
+
+.content-block > img {
+    padding:  40px;
+}
+
+#sign-up {
+    padding: 40px;
+}
+  
+  .description {
+  width: 40%;
+  padding: 20px;
+    margin:20px auto;
+  border: 1px solid blue;
+    }
+
+.quick-summary {
+  float: left;
+  width: 20%;
+  margin-left: 50px;
+  }
+
+.content-block > img {
+  float: right;
+  margin-right: 50px;
+  }
+
+#aplus-intro img:first-of-type {
+    margin-left:50px;
+  float: left;
+}
+    
+#aplus-intro div {
+  margin-right:50px;
+  float: right;
+}
+    
+#aplus-intro img:nth-of-type(2) {
+      float: none;
+      margin: auto;
+}

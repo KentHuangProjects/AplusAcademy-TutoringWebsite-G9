@@ -1,0 +1,83 @@
+body
+{
+    background-color: #333333;
+	background-image: url('../images/career_bg.jpg');
+	color: cyan;
+}
+
+#main-content {
+    background-color: rgba(100,100,100, 0.9);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+}
+
+#header {
+	text-align: center;
+	color: pink;
+}
+
+#career-form {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+    border: 1px solid red;
+}
+
+#career-form input, textarea, option {
+    padding: 5px;
+}
+
+#career-form label {
+    display: block;
+}
+
+#career-form fieldset {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(50,50,50, 0.5);
+}
+
+#career-form legend{
+    padding: 0 10px;
+}
+
+#career-form input[type=text], 
+#career-form input[type=email], 
+#career-form input[type=file], 
+#career-form select {
+	 width: 200px;
+     margin-bottom: 10px;
+}
+
+#career-form input[type=submit] {
+    padding: 3px 20px;
+    margin: 15px;
+}
+
+.left{
+    width: 55%;
+    display: inline-block;
+    padding: 10px;
+}
+
+.required::after {
+    content: " *";
+    color: red;
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+    width: 40%;
+    display: inline-block;
+	padding: 10px;
+}
+
+#career-form .right fieldset {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+}
