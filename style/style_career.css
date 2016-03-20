@@ -2,7 +2,6 @@ body
 {
     background-color: #333333;
 	background-image: url('../images/career_bg.jpg');
-	color: cyan;
 }
 
 #main-content {
@@ -12,7 +11,7 @@ body
 
 #header {
 	text-align: center;
-	color: pink;
+    color:  #ffffff;
 }
 
 #career-form {
@@ -22,11 +21,26 @@ body
     border: 1px solid red;
 }
 
-#career-form input, textarea, option {
+#career-form input, option {
     padding: 5px;
+    height: 30px;
+}
+
+#career-form .hint {
+    visibility: hidden;
+    color: red;
+    font-size: .9em;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+#career-form textarea {
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 #career-form label {
+    color:  #ffffff;
     display: block;
 }
 
@@ -37,6 +51,7 @@ body
 }
 
 #career-form legend{
+    color:  #ffffff;
     padding: 0 10px;
 }
 
@@ -48,13 +63,20 @@ body
      margin-bottom: 10px;
 }
 
-#career-form input[type=submit] {
+#career-form input[type=file] {
+    width: initial;
+    height: initial;
+    color:  #ffffff;
+}
+
+#career-form input[type=submit],
+#career-form input[type=reset] {
     padding: 3px 20px;
     margin: 15px;
 }
 
 .left{
-    width: 55%;
+    width: 60%;
     display: inline-block;
     padding: 10px;
 }

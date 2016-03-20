@@ -6,6 +6,14 @@ function $$(id){
 	return element;
 }
 
+/*---------- Hide hints when form is reset ----------*/
+function clearHints() {
+    var hints = document.getElementsByClassName('hint');
+    for(i = 0; i < hints.length; i++) {
+        hints[i].style.visibility = "hidden";
+    }
+}
+
 /*---------- Validate entire form ----------*/
 function validateForm() {
     // Warn all invalid fields
@@ -47,9 +55,11 @@ function validateForm() {
 function warn(id, valid) {
 	if(valid) {
 	    $$(id).style.border = "none";
+        $$(id + 'Hint').style.visibility = "hidden";
 	}
     else {  
         $$(id).style.border = "2px solid red";
+        $$(id + 'Hint').style.visibility = "visible";
     }
 }
 
