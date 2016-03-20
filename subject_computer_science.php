@@ -49,21 +49,21 @@
 
 		    <div class="row2">
 			
-			    <a href="courses_html.html">
+			    <a href="courses_html.php">
 			    <div id ="c1" class="courses">
 			    <h3 id="c1title">HTML</h3>
 			    <p>Using HTML and CSS, students are able to learn the basics of web development in a fun and interactive format. In only a short period of time, they are able to make fully-functioning websites using the most up-to-date web standards.</p>
 			    </div>
 			    </a>
 			
-			    <a href="courses_cplusplus.html">
+			    <a href="courses_cplusplus.php">
 			    <div id ="c2" class="courses">
 			    <h3 id="c2title">C++</h3>
 			    <p>Built upon C, C++ is its object-oriented predecessor and one of the industry's most widely used programming languages. Students will learn to create classes, use arrays and pointers, and create their own command-line programs.</p>
 			    </div>
 			    </a>
 			
-			    <a href="courses_java.html">
+			    <a href="courses_java.php">
 			    <div id ="c3" class="courses">
 			    <h3 id="c3title">Java</h3>
 			    <p>Students can learn the essentials of object-oriented programming with Java. They will learn to use predefined Java library classes and use and create classes of their own. Topics also including encapsulation, inheritance and polymorphism.</p>
