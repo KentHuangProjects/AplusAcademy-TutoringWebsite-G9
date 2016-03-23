@@ -101,11 +101,11 @@
 						    </ul>
 					    </li>
 
-					    <li class="subject"><a href="subject_writing.html">Professional Writing</a>
+					    <li class="subject"><a href="subject_writing.php">Professional Writing</a>
 					        <ul>
-						        <li><a href="courses_essay.html">Essay</a></li>
-						        <li><a href="courses_report.html">Report</a></li>
-						        <li><a href="courses_thesis.html">Thesis</a></li>
+						        <li><a href="courses_essay.php">Essay</a></li>
+						        <li><a href="courses_report.php">Report</a></li>
+						        <li><a href="courses_thesis.php">Thesis</a></li>
 					        </ul>
 					    </li>
 
