@@ -154,7 +154,7 @@ body {
 #main-content {
     width: 1000px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 
@@ -169,4 +169,20 @@ body {
 	background-color:#003C79;
 	color:#ffffff;
     clear: both;
+}
+
+#main-footer p {
+    margin: 10px;
+}
+
+#main-footer a {
+    text-decoration: none;
+}
+
+#main-footer a:link, #main-footer a:visited {
+    color: #FFFFFF;
+}
+
+#main-footer a:hover {
+    color: #F7624A;
 }
