@@ -11,13 +11,20 @@ body {
     background-color: rgba(100,100,100, 0.6);
 }
 
+#main-content {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
 /* A content block in the main content block of the page */
 .content-block {
     color: #FFFFFF;
-  padding:20px;
-  margin: 10px 0px;
-  text-align: center;
-  clear: both;
+    padding:20px;
+    margin: 10px 0px;
+    text-align: center;
   }
 
 /* Alternate background colors for content blocks */
@@ -45,11 +52,12 @@ body {
 .col-1, .col-2, .col-3 {
     display: inline-block;
     margin: 0px;
-    border: 1px solid white;
+    vertical-align: top;
 }
 
 .col-1 {
     width: 24%;
+    padding: 20px;
 }
 
 .col-2 {
@@ -58,6 +66,21 @@ body {
 
 .col-3 {
     width: 24%;
+}
+
+#aplus-intro .col-1,
+#aplus-intro .col-2,
+#aplus-intro .col-3 {
+    vertical-align: middle;
+}
+
+.col-1 h3 {
+    margin-top: 0px;
+}
+
+.col-1 ul {
+    margin-left: 25%;
+    text-align: left;
 }
 
 .description {

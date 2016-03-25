@@ -11,6 +11,8 @@
         <!--CSS for registeration form-->
         <link href="style/style_registration.css" rel="stylesheet" type="text/css"/>
 
+        <!-- Import font -->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -31,13 +33,12 @@
             <!-- Main Content -->
             <div id="main-content">
                 <div class="content-block" id="aplus-intro">
-                    <h1>Aplus Academy</h1>
-
                     <div class="col-1">
-                  	    <img src="/images/logo.jpg" alt="Logo" height="200" width="200">
+                  	    <img src="/images/logo.jpg" alt="Logo" height="150" width="150">
                     </div>
 
                     <div class="col-2">
+                        <h1>Aplus Academy</h1>
                         <div class="description">
                             <p>Our goal at Aplus Academy is to help students find and connect with our qualified tutors who specialize in an array of subjects. The “plus” in Aplus Academy stands for Plan, Learn, Utilize and Succeed: outlining a roadmap for educational excellence.</p>
                         </div>
@@ -52,10 +53,12 @@
                     <h2>Economics</h2>
 
                     <div class="col-1">
-                        <div class="quick-summary">
-                          <h3>Quick Summary</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
-                  	    </div>
+                          <h3>Courses</h3>
+                          <ul>
+                                <li>Macroeconomics</li>
+                                <li>Microeconomics</li>
+                                <li>Entrepreneurship</li>
+                          </ul>
                     </div>
 
                     <div class="col-2">
@@ -75,10 +78,12 @@
                     <h2>Professional Writing</h2>
 
                     <div class="col-1">
-                        <div class="quick-summary">
-                          <h3>Quick Summary</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
-                  	    </div>
+                        <h3>Courses</h3>
+                        <ul>
+                            <li>Essay</li>
+                            <li>Report</li>
+                            <li>Thesis</li>
+                        </ul>
                     </div>
 
                     <div class="col-2">
@@ -97,10 +102,12 @@
                     <h2>Computer Science</h2>
                    
                     <div class="col-1">
-                        <div class="quick-summary">
-                          <h3>Quick Summary</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
-                  	    </div>
+                        <h3>Courses</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                        </ul>
                     </div>
 
                     <div class="col-2">
@@ -119,10 +126,12 @@
                     <h2>Math</h2>
     
                     <div class="col-1">
-                        <div class="quick-summary">
-                          <h3>Quick Summary</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
-                  	    </div>
+                        <h3>Courses</h3>
+                        <ul>
+                            <li>Calculus</li>
+                            <li>Matrix</li>
+                            <li>Algebra</li>
+                        </ul>
                     </div>
 
                     <div class="col-2">
@@ -141,10 +150,12 @@
                     <h2>Fitness</h2>
              
                     <div class="col-1">
-                        <div class="quick-summary">
-                          <h3>Quick Summary</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
-                  	    </div>
+                        <h3>Courses</h3>
+                        <ul>
+                            <li>Sports</li>
+                            <li>Weight Training</li>
+                            <li>Dance</li>
+                        </ul>
                     </div>
 
                     <div class="col-2">
