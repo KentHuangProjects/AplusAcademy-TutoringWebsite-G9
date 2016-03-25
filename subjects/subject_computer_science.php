@@ -3,10 +3,10 @@
 <head>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link href="style/base.css" rel="stylesheet" type="text/css">
-        <link href="style/style_subject.css" rel="stylesheet" type="text/css">
+        <link href="../style/base.css" rel="stylesheet" type="text/css">
+        <link href="../style/style_subject.css" rel="stylesheet" type="text/css">
         <!--CSS for registeration form-->
-        <link href="style/style_registration.css" rel="stylesheet" type="text/css"/>
+        <link href="../style/style_registration.css" rel="stylesheet" type="text/css"/>
 
 
         <!-- jQuery library -->
@@ -15,7 +15,7 @@
         <!-- Latest compiled JavaScript -->
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <!-- Registeration form validation -->
-        <script type="text/javascript" src="js/registeration_Form_script.js"></script>
+        <script type="text/javascript" src="../js/registeration_Form_script.js"></script>
 <title>Computer Science</title>
 <meta charset="utf-8">
 
@@ -26,7 +26,7 @@
         <div id="main-wrapper">
         
 <?php
-    include ("header.php");
+    include ("../header.php");
 ?>
 
 	    <header>
@@ -37,7 +37,7 @@
 		
 		    <div class ="row1">
 			    <div id ="imag">
-				    <img src="images/subject_computing.jpg" alt="Subject name" width="400" height="200"/>
+				    <img src="../images/subject_computing.jpg" alt="Subject name" width="400" height="200"/>
 			    </div>
 			
 			    <div id ="intro">
@@ -73,7 +73,7 @@
 	    </div>
 
 <?php
-    include ("footer.php");
+    include ("../footer.php");
 ?>
     </div>
 </body>

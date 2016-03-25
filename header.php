@@ -3,7 +3,7 @@
 
 		    <!-- wrapper class which wraps the content inside specified width -->
 		    <div class="wrapper">
-		        <img src="images/logo.jpg" height="50" width="50" alt="A+ Logo">
+		        <img src="/images/logo.jpg" height="50" width="50" alt="A+ Logo">
 			
 		        <div id="title">
 		            <p>A PLUS Academy <br id="title2"> Plan Learn Utilize Succeed</p>
@@ -89,54 +89,54 @@
 	    <div class="wrapper">
 	        <ul id="navbar">
 		        <li>
-		            <a href="index.php">Home Page</a>
+		            <a href="/index.php">Home Page</a>
 		        </li>
 		        <li><a href="#">Subjects</a>
 			        <ul>
-				        <li class="subject"><a href="subject_economy.html">Economics</a>
+				        <li class="subject"><a href="/subjects/subject_economy.html">Economics</a>
                             <ul>
-					            <li><a href="courses_macroeconomics.html">Macro</a></li>
-							    <li><a href="courses_microeconomics.html">Micro</a></li>
-							    <li><a href="courses_entrepreneurship.html">Entrepreneurship</a></li>
+					            <li><a href="/courses/courses_macroeconomics.html">Macro</a></li>
+							    <li><a href="/courses/courses_microeconomics.html">Micro</a></li>
+							    <li><a href="/courses/courses_entrepreneurship.html">Entrepreneurship</a></li>
 						    </ul>
 					    </li>
 
-					    <li class="subject"><a href="subject_writing.php">Professional Writing</a>
+					    <li class="subject"><a href="/subjects/subject_writing.php">Professional Writing</a>
 					        <ul>
-						        <li><a href="courses_essay.php">Essay</a></li>
-						        <li><a href="courses_report.php">Report</a></li>
-						        <li><a href="courses_thesis.php">Thesis</a></li>
+						        <li><a href="/courses/courses_essay.php">Essay</a></li>
+						        <li><a href="/courses/courses_report.php">Report</a></li>
+						        <li><a href="/courses/courses_thesis.php">Thesis</a></li>
 					        </ul>
 					    </li>
 
-					    <li class="subject"><a href="subject_computer_science.php">Computer Science</a>
+					    <li class="subject"><a href="/subjects/subject_computer_science.php">Computer Science</a>
                             <ul>
-						        <li><a href="courses_html.php">HTML</a></li>
-							    <li><a href="courses_cplusplus.php">C++</a></li>
-							    <li><a href="courses_java.php">Java</a></li>
+						        <li><a href="/courses/courses_html.php">HTML</a></li>
+							    <li><a href="/courses/courses_cplusplus.php">C++</a></li>
+							    <li><a href="/courses/courses_java.php">Java</a></li>
 						    </ul>
 					    </li>
 
-					    <li class="subject"><a href="subject_math.html">Math</a>
+					    <li class="subject"><a href="/subjects/subject_math.html">Math</a>
                             <ul>
-						        <li><a href="courses_calculus.html">Calculus</a></li>
-						        <li><a href="courses_matrix.html">Matrix</a></li>
-						        <li><a href="courses_algebra.html">Algebra</a></li>
+						        <li><a href="/courses/courses_calculus.html">Calculus</a></li>
+						        <li><a href="/courses/courses_matrix.html">Matrix</a></li>
+						        <li><a href="/courses/courses_algebra.html">Algebra</a></li>
 						    </ul>
 					    </li>
 
-					    <li class="subject"><a href="subject_fitness.html">Fitness</a>
+					    <li class="subject"><a href="/subjects/subject_fitness.html">Fitness</a>
                             <ul>
-						        <li><a href="courses_sports.html">Sports</a></li>
-						        <li><a href="courses_weight_training.html">Weight training</a></li>
-						        <li><a href="courses_dance.html">Dance</a></li>
+						        <li><a href="/courses/courses_sports.html">Sports</a></li>
+						        <li><a href="/courses/courses_weight_training.html">Weight training</a></li>
+						        <li><a href="/courses/courses_dance.html">Dance</a></li>
 						    </ul>
 					    </li>
 				    </ul>
 		        </li>
 
-		        <li><a href="career.html">Careers</a></li>
-		        <li><a href="about.html">About Us</a></li>
-		        <li><a href="contact_us.html">Contact Us</a></li>
+		        <li><a href="/career.html">Careers</a></li>
+		        <li><a href="/about.html">About Us</a></li>
+		        <li><a href="/contact_us.html">Contact Us</a></li>
             </ul>
         </div>
