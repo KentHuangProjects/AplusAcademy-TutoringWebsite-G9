@@ -1,54 +1,78 @@
 body {
+    /* Sources: https://wallpaperscraft.com/image/keyboard_half_close-up_80011_3840x2160.jpg */
+    background-image: url("../images/keyboard_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 25%;
+    
+}
+
+#main-wrapper {
+    background-color: rgba(100,100,100, 0.6);
 }
 
 /* A content block in the main content block of the page */
 .content-block {
+    color: #FFFFFF;
   padding:20px;
   margin: 10px 0px;
-  border: 1px solid blue;
   text-align: center;
   clear: both;
   }
 
-.content-block > img, .content-block > div {
-  display: inline-block;
-  border:1px solid blue;
-  }
+.content-block:nth-of-type(5n - 4) {
+    background-color: #CF4857;
+}
+
+.content-block:nth-of-type(5n - 3) {
+    background-color: #F7624A;
+}
+
+.content-block:nth-of-type(5n - 2) {
+    background-color: #1C6A81;
+}
+
+.content-block:nth-of-type(5n - 1) {
+    background-color: #16A89E;
+}
+
+.content-block:nth-of-type(5n) {
+    background-color: #81628B;
+}
 
 .content-block > img {
+    display: inline-block;
     padding:  40px;
+    border: 1px solid white;
+    float: right;
+      margin-right: 50px;
 }
 
 #sign-up {
     padding: 40px;
 }
   
-  .description {
-  width: 40%;
-  padding: 20px;
+.description {
+    width: 50%;
+    padding: 20px;
     margin:20px auto;
-  border: 1px solid blue;
-    }
+    border: 1px solid blue;
+}
 
 .quick-summary {
-  float: left;
-  width: 20%;
-  margin-left: 50px;
-  }
-
-.content-block > img {
-  float: right;
-  margin-right: 50px;
+      float: left;
+      width: 20%;
+      margin-left: 50px;
   }
 
 #aplus-intro img:first-of-type {
     margin-left:50px;
-  float: left;
+    float: left;
 }
     
 #aplus-intro div {
-  margin-right:50px;
-  float: right;
+      margin-right:50px;
+      float: right;
 }
     
 #aplus-intro img:nth-of-type(2) {
