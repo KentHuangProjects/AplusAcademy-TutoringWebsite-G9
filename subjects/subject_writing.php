@@ -3,10 +3,10 @@
 <head>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link href="style/base.css" rel="stylesheet" type="text/css">
-        <link href="style/style_subject.css" rel="stylesheet" type="text/css">
+        <link href="../style/base.css" rel="stylesheet" type="text/css">
+        <link href="../style/style_subject.css" rel="stylesheet" type="text/css">
         <!--CSS for registeration form-->
-        <link href="style/style_registration.css" rel="stylesheet" type="text/css"/>
+        <link href="../style/style_registration.css" rel="stylesheet" type="text/css"/>
 
 
         <!-- jQuery library -->
@@ -15,7 +15,7 @@
         <!-- Latest compiled JavaScript -->
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <!-- Registeration form validation -->
-        <script type="text/javascript" src="js/registeration_Form_script.js"></script>
+        <script type="text/javascript" src="../js/registeration_Form_script.js"></script>
 <title>Professional Writing</title>
 <meta charset="utf-8">
 
@@ -26,7 +26,7 @@
         <div id="main-wrapper">
         
         <?php
-            include ("header.php");
+            include ("../header.php");
         ?>
         
         <!-- Main content section -->
@@ -73,9 +73,10 @@
 		    </div>
 	    </div>
 
-	    <div id= "footer">
-		    <p>Copyright&copy;  |  Aplus .Co &nbsp;|&nbsp;  BCIT &nbsp;|&nbsp;  123-456-6789 &nbsp;|  contact us</p>
-	    </div>
+        <!-- Main footer -->
+	    <?php
+            include("../footer.php");
+        ?>
     </div>
 </body>
 </html>
