@@ -8,6 +8,8 @@
         <!--CSS for registeration form-->
         <link href="../style/style_registration.css" rel="stylesheet" type="text/css"/>
 
+        <!-- Import font -->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

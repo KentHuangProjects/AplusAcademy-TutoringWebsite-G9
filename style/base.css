@@ -12,6 +12,7 @@ body {
 #main-wrapper {
     width: 100%;
     margin: auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* The main header of the page */
