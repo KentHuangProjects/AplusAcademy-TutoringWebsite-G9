@@ -32,80 +32,130 @@
             <div id="main-content">
                 <div class="content-block" id="aplus-intro">
                     <h1>Aplus Academy</h1>
-                  	<img src="images/logo.jpg" alt="Logo" height="40" width="40">
-                    <div id="sign-up"><a href="#" data-toggle="modal" data-target="#myModal">Sign-Up</a></div>
-                    <div class="description">
-                        <p>Our goal at Aplus Academy is to help students find and connect with our qualified tutors who specialize in an array of subjects. The “plus” in Aplus Academy stands for Plan, Learn, Utilize and Succeed: outlining a roadmap for educational excellence.</p>
+
+                    <div class="col-1">
+                  	    <img src="/images/logo.jpg" alt="Logo" height="200" width="200">
                     </div>
-                    <img src="images/image.jpg" alt="Image" height="40" width="40">
+
+                    <div class="col-2">
+                        <div class="description">
+                            <p>Our goal at Aplus Academy is to help students find and connect with our qualified tutors who specialize in an array of subjects. The “plus” in Aplus Academy stands for Plan, Learn, Utilize and Succeed: outlining a roadmap for educational excellence.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div id="sign-up"><a href="#" data-toggle="modal" data-target="#myModal">Sign Up Today!</a></div>
+                    </div>
                 </div>
 
                 <div class="content-block">
-                    <h2>Economics</h2>  
-                    <div class="quick-summary">
-                      <h3>Quick Summary</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
-                  	</div>
-                    <img src="images/image.jpg" alt="Image" height="40" width="40">
-                  	<div class="description">
-                        <p>Economics is the study of how people choose to use resources.</p>
-                        <p>Resources include the basic four factors of production: Natural resources, Human resources, Capital and Entrepreneurship. And the knowledge of how to combine them to create useful products and services is the main idea in sucess.economics includes the study of labor, land, and investments, of money, income, and production, and of taxes and government expenditures. Economists seek to measure well-being, to learn how well-being may increase over time, and to evaluate the well-being of the rich and the poor.</p>
-                        <p>In A+ Academy, we teach you everything from a general prospective to view the world to a more detailed skill on starting you own business. Everyone can be sucessful in life, and we are here to help.</p>
+                    <h2>Economics</h2>
+
+                    <div class="col-1">
+                        <div class="quick-summary">
+                          <h3>Quick Summary</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
+                  	    </div>
+                    </div>
+
+                    <div class="col-2">
+                  	    <div class="description">
+                            <p>Economics is the study of how people choose to use resources.</p>
+                            <p>Resources include the basic four factors of production: Natural resources, Human resources, Capital and Entrepreneurship. And the knowledge of how to combine them to create useful products and services is the main idea in sucess.economics includes the study of labor, land, and investments, of money, income, and production, and of taxes and government expenditures. Economists seek to measure well-being, to learn how well-being may increase over time, and to evaluate the well-being of the rich and the poor.</p>
+                            <p>In A+ Academy, we teach you everything from a general prospective to view the world to a more detailed skill on starting you own business. Everyone can be sucessful in life, and we are here to help.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <img src="images/image.jpg" alt="Image" height="100" width="100">
                     </div>
                 </div>
 
                 <div class="content-block">
                     <h2>Professional Writing</h2>
-                    <div class="quick-summary">
-                        <h3>Quick Summary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
-                  	</div>
-                    <img src="images/image.jpg" alt="Image" height="40" width="40">
-                  	<div class="description">
-                          <p>Have you ever felt headache when it comes to writing for school or for work? Wondering why some people can write and communicate so concise and effectively? A+ Academy can help!</p>
-                          <p>One of the most effective ways to communicate is through writing. We are currently offering essay, professional report and academy thesis writing courses. If you want to improve your communication skills in those areas, register with A+ Academy today!</p>
+
+                    <div class="col-1">
+                        <div class="quick-summary">
+                          <h3>Quick Summary</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
+                  	    </div>
+                    </div>
+
+                    <div class="col-2">
+                  	    <div class="description">
+                              <p>Have you ever felt headache when it comes to writing for school or for work? Wondering why some people can write and communicate so concise and effectively? A+ Academy can help!</p>
+                              <p>One of the most effective ways to communicate is through writing. We are currently offering essay, professional report and academy thesis writing courses. If you want to improve your communication skills in those areas, register with A+ Academy today!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <img src="images/image.jpg" alt="Image" height="100" width="100">
                     </div>
                 </div>
 
                 <div class="content-block">
                     <h2>Computer Science</h2>
                    
-                    <div class="quick-summary">
-                        <h3>Quick Summary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
-                  	</div>
-                    <img src="images/image.jpg" alt="Image" height="40" width="40">
-                    <div class="description">
-                        <p>Aplus Academy offers beginner to intermediate level courses in computer science.</p>
-                        <p>We currently teach three programming languages: HTML, C++ and Java. Whether you're just starting out or you already have some knowledge in computing, we have a course for you.</p>
+                    <div class="col-1">
+                        <div class="quick-summary">
+                          <h3>Quick Summary</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
+                  	    </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="description">
+                            <p>Aplus Academy offers beginner to intermediate level courses in computer science.</p>
+                            <p>We currently teach three programming languages: HTML, C++ and Java. Whether you're just starting out or you already have some knowledge in computing, we have a course for you.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <img src="images/image.jpg" alt="Image" height="100" width="100">
                     </div>
                </div>
 
                 <div class="content-block">
                     <h2>Math</h2>
     
-                    <div class="quick-summary">
-                   	    <h3>Quick Summary</h3>
-                      	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
-                  	</div>
-                    <img src="images/image.jpg" alt="Image" height="40" width="40">
-                    <div class="description">
-                        <p>Working on math homework now? We can help. Our math tutors are experts at Algebra, Calculus, Matirx, and everything in between.They’ll help with everything math class throws at you.</p>
-                        <p>Whether you're still learning the basics or mastering more difficult concepts, we're ready to help. Sign up now and it is easy to Boost Your Math Grade.</p>
+                    <div class="col-1">
+                        <div class="quick-summary">
+                          <h3>Quick Summary</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
+                  	    </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="description">
+                            <p>Working on math homework now? We can help. Our math tutors are experts at Algebra, Calculus, Matirx, and everything in between.They’ll help with everything math class throws at you.</p>
+                            <p>Whether you're still learning the basics or mastering more difficult concepts, we're ready to help. Sign up now and it is easy to Boost Your Math Grade.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <img src="images/image.jpg" alt="Image" height="100" width="100">
                     </div>
                 </div>
 
                 <div class="content-block">
                     <h2>Fitness</h2>
              
-                    <div class="quick-summary">
-                  		<h3>Quick Summary</h3>
-                      	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
-                  	</div>
-                    <img src="images/image.jpg" alt="Image" height="40" width="40">
-                    <div class="description">
-                        <p>Here at A+ Academy, not only do we look to improve your mental strength, but also your physical strength. With options like sports, weight training and dance you have a variety of ways to get the healthy physique you deserve.</p>
-                        <p>Through the internet we can help you achieve your fitness goals at a time suitable to your schedule. We’re dedicated to developing the most effective training programs just for you and we strive to help you become the fittest you can be!</p>
+                    <div class="col-1">
+                        <div class="quick-summary">
+                          <h3>Quick Summary</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
+                  	    </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="description">
+                            <p>Here at A+ Academy, not only do we look to improve your mental strength, but also your physical strength. With options like sports, weight training and dance you have a variety of ways to get the healthy physique you deserve.</p>
+                            <p>Through the internet we can help you achieve your fitness goals at a time suitable to your schedule. We’re dedicated to developing the most effective training programs just for you and we strive to help you become the fittest you can be!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <img src="images/image.jpg" alt="Image" height="100" width="100">
                     </div>
                 </div>
             </div>

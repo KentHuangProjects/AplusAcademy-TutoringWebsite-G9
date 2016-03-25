@@ -20,6 +20,7 @@ body {
   clear: both;
   }
 
+/* Alternate background colors for content blocks */
 .content-block:nth-of-type(5n - 4) {
     background-color: #CF4857;
 }
@@ -40,42 +41,41 @@ body {
     background-color: #81628B;
 }
 
-.content-block > img {
+/* Divide content blocks into three columns */
+.col-1, .col-2, .col-3 {
     display: inline-block;
-    padding:  40px;
+    margin: 0px;
     border: 1px solid white;
-    float: right;
-      margin-right: 50px;
+}
+
+.col-1 {
+    width: 24%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 24%;
+}
+
+.description {
+    padding: 20px;
 }
 
 #sign-up {
-    padding: 40px;
-}
-  
-.description {
-    width: 50%;
-    padding: 20px;
-    margin:20px auto;
-    border: 1px solid blue;
+    font-size: 1.5em;
 }
 
-.quick-summary {
-      float: left;
-      width: 20%;
-      margin-left: 50px;
-  }
+#sign-up a {
+    text-decoration: none;
+}
 
-#aplus-intro img:first-of-type {
-    margin-left:50px;
-    float: left;
+#sign-up a:link, #sign-up a:visited {
+    color: #FFFFFF;
 }
-    
-#aplus-intro div {
-      margin-right:50px;
-      float: right;
-}
-    
-#aplus-intro img:nth-of-type(2) {
-      float: none;
-      margin: auto;
+
+#sign-up a:hover {
+    color: #F7624A;
 }
