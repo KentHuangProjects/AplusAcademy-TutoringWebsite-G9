@@ -109,11 +109,11 @@
 					        </ul>
 					    </li>
 
-					    <li class="subject"><a href="/subjects/subject_computer_science.php">Computer Science</a>
+					    <li class="subject"><a href="/subjects/computer_science.php">Computer Science</a>
                             <ul>
-						        <li><a href="/courses/courses_html.php">HTML</a></li>
-							    <li><a href="/courses/courses_cplusplus.php">C++</a></li>
-							    <li><a href="/courses/courses_java.php">Java</a></li>
+						        <li><a href="/courses/html.php">HTML</a></li>
+							    <li><a href="/courses/cplusplus.php">C++</a></li>
+							    <li><a href="/courses/java.php">Java</a></li>
 						    </ul>
 					    </li>
 
