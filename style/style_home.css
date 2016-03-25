@@ -30,22 +30,52 @@ h1 {
 /* Alternate background colors for content blocks */
 .content-block:nth-of-type(5n - 4) {
     background-color: #CF4857;
+
+    /* Source: http://colorzilla.com/gradient-editor/#cf4857+0,ffffff+100&1+0,0+100 */
+    background: -moz-linear-gradient(top,  rgba(207,72,87,1) 0%, rgba(255,255,255,0) 200%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(207,72,87,1) 0%,rgba(255,255,255,0) 200%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(207,72,87,1) 0%,rgba(255,255,255,0) 200%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf4857', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 .content-block:nth-of-type(5n - 3) {
     background-color: #F7624A;
+    
+    /* Source: http://colorzilla.com/gradient-editor/#f7624a+0,ffffff+100&1+0,0+100 */
+    background: -moz-linear-gradient(top,  rgba(247,98,74,1) 0%, rgba(255,255,255,0) 200%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(247,98,74,1) 0%,rgba(255,255,255,0) 200%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(247,98,74,1) 0%,rgba(255,255,255,0) 200%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7624a', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 .content-block:nth-of-type(5n - 2) {
     background-color: #1C6A81;
+    
+    /* Source: http://colorzilla.com/gradient-editor/#1c6a81+0,ffffff+100&1+0,0+100 */
+    background: -moz-linear-gradient(top,  rgba(28,106,129,1) 0%, rgba(255,255,255,0) 200%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(28,106,129,1) 0%,rgba(255,255,255,0) 200%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(28,106,129,1) 0%,rgba(255,255,255,0) 200%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c6a81', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 .content-block:nth-of-type(5n - 1) {
     background-color: #16A89E;
+    
+    /* Source: http://colorzilla.com/gradient-editor/#16a89e+0,ffffff+100&1+0,0+100 */
+    background: -moz-linear-gradient(top,  rgba(22,168,158,1) 0%, rgba(255,255,255,0) 200%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(22,168,158,1) 0%,rgba(255,255,255,0) 200%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(22,168,158,1) 0%,rgba(255,255,255,0) 200%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16a89e', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 .content-block:nth-of-type(5n) {
     background-color: #81628B;
+    
+    /* Source: http://colorzilla.com/gradient-editor/#81628b+0,ffffff+100&1+0,0+100 */
+    background: -moz-linear-gradient(top,  rgba(129,98,139,1) 0%, rgba(255,255,255,0) 200%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(129,98,139,1) 0%,rgba(255,255,255,0) 200%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(129,98,139,1) 0%,rgba(255,255,255,0) 200%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81628b', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 /* Divide content blocks into three columns */
@@ -101,4 +131,10 @@ h1 {
 
 #sign-up a:hover {
     color: #F7624A;
+}
+
+.content-block {
+    /* Source: http://thumbs.dreamstime.com/z/illustration-economic-terms-12477766.jpg 
+    background-image: url("/images/economics_background.png");*/
+    
 }

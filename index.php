@@ -34,7 +34,7 @@
             <div id="main-content">
                 <div class="content-block" id="aplus-intro">
                     <div class="col-1">
-                  	    <img src="/images/logo.jpg" alt="Logo" height="150" width="150">
+                  	    <img src="/images/logo2.png" alt="Logo" height="150" width="150">
                     </div>
 
                     <div class="col-2">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
 
-                <div class="content-block">
+                <div class="content-block" id="economics">
                     <h2>Economics</h2>
 
                     <div class="col-1">
