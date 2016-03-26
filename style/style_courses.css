@@ -4,6 +4,12 @@ body{
 	background-color: gray;
 }
 
+body.writing {
+    background-image: url("../courses/images/writing_background.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
 /* Left Side */
 .leftmaincontent {
 	float: left;
@@ -60,4 +66,8 @@ body{
 	border: solid 3px #87CEFA;
 	margin: 5px;
     padding: 0 0 0 1em;
+}
+
+ol {
+    padding: 10px;
 }
