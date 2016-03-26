@@ -3,11 +3,11 @@
 <head>
 	<title>Courses - Thesis</title>
 	<meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href="../style/base.css" rel="stylesheet" type="text/css">
 	<link href="../style/style_courses.css" rel="stylesheet" type="text/css">
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!--CSS for registeration form-->
     <link href="../style/style_registration.css" rel="stylesheet" type="text/css"/>
 
@@ -20,7 +20,7 @@
     <script type="text/javascript" src="../js/registeration_Form_script.js"></script>
 </head>
 	
-<body>
+<body class="writing">
     <!-- main wrapper wraps the whole page -->
     <div id="main-wrapper">
 
@@ -49,23 +49,6 @@
 				
 		            <button type="button">Review button</button>
 		        </div>
-			
-			    <div class="review">
-			        <p>Review</p>
-			    </div>
-			
-			    <div class="imageandrating">
-			        <img src="Image2.jpeg" alt="Profile2" height="125" width="125">
-			    </div>
-			
-			    <div class="tutordescrip">
-			        <h3>Description of the tutor</h3>
-			        <p>Educational Background</p>
-			        <p>Experience</p>
-			        <p>Motivation</p>
-				
-			        <button type="button">Review button</button>
-			    </div>
 			
 			    <div class="review">
 			        <p>Review</p>
