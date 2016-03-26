@@ -11,7 +11,11 @@ body
 
 #header {
 	text-align: center;
-    color:  #ffffff;
+    color: #ffffff;
+}
+
+#message {
+    color: #ffffff;
 }
 
 #career-form {
