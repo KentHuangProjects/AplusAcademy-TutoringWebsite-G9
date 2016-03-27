@@ -95,7 +95,7 @@ body {
     text-align: center;
 }
 
-#navbar ul {
+#navbar ul li:last-of-type {
     box-shadow: 0px 10px 5px rgba(0,0,0,0.2);
 }
 
@@ -112,10 +112,6 @@ body {
 
 #navbar li.subject {
     width: 100%;
-}
-
-#navbar li.subject ul li {
-    width: 200px;
 }
 
 #navbar li a{
@@ -147,6 +143,11 @@ body {
 	position: absolute;
 	left: 100%;
 	top: 0;
+    width: 100%;
+}
+
+#navbar ul ul li {
+    width: 100%;
 }
 
 #navbar li:hover > ul {
@@ -157,7 +158,6 @@ body {
 #main-content {
     width: 1000px;
     margin: auto;
-    margin-top: 50px;
 }
 
 
