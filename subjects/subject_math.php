@@ -3,10 +3,10 @@
 <head>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link href="style/base.css" rel="stylesheet" type="text/css">
-        <link href="style/style_subject.css" rel="stylesheet" type="text/css">
+        <link href="../style/base.css" rel="stylesheet" type="text/css">
+        <link href="../style/style_subject.css" rel="stylesheet" type="text/css">
         <!--CSS for registeration form-->
-        <link href="style/style_registration.css" rel="stylesheet" type="text/css"/>
+        <link href="../style/style_registration.css" rel="stylesheet" type="text/css"/>
 
 
         <!-- jQuery library -->
@@ -37,7 +37,7 @@
 		
 		    <div class ="row1">
 			    <div id ="imag">
-				    <img src="images/subject_math.jpg" alt="Subject name" width="400" height="200"/>
+				    <img src="../images/subject_math.jpg" alt="Subject name" width="400" height="200"/>
 			    </div>
 			
 			    <div id ="intro">
