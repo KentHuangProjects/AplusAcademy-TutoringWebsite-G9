@@ -3,8 +3,8 @@
 <head> 
 	<title>Macroeconomics</title>
 	<meta charset="utf-8">
-    <link href="style/base.css" rel="stylesheet" type="text/css">
-	<link href="style/style_courses.css" rel="stylesheet" type="text/css">
+    <link href="../style/base.css" rel="stylesheet" type="text/css">
+	<link href="../style/style_courses.css" rel="stylesheet" type="text/css">
 
         <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -37,7 +37,7 @@
 		        </div>
 			
 		        <div class="imageandrating">
-			        <img src="images/RogerZhang.jpg" alt="Profile1" height="195" width="195">
+			        <img src="../images/RogerZhang.jpg" alt="Profile1" height="195" width="195">
 		        </div>
 			
 		        <div class="tutordescrip">
@@ -70,7 +70,7 @@
 				    <p>-Purchasing power and interest rate</p>
 			    </div>
 			
-		        <button type="button" onclick="location.href='table_economics.html'">Book now</button>
+		        <button type="button" onclick="location.href='table_economics.php'">Book now</button>
 	        </div>
         </div>
 
