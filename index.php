@@ -34,7 +34,7 @@
             <div id="main-content">
                 <div class="content-block" id="aplus-intro">
                     <div class="col-1">
-                  	    <img src="/images/logo2.png" alt="Logo" height="150" width="150">
+                  	    <img src="images/logo2.png" alt="Logo" height="150" width="150">
                     </div>
 
                     <div class="col-2">
@@ -69,7 +69,7 @@
                     </div>
 
                     <div class="col-3">
-                        <a href="/subjects/subject_economy.html"><img src="/images/economics_title.jpg" alt="Economics Image" height="150" width="150"></a> 
+                        <a href="subjects/subject_economy.html"><img src="images/economics_title.jpg" alt="Economics Image" height="150" width="150"></a> 
                     </div>
                 </div>
 
@@ -92,7 +92,7 @@
                     </div>
 
                     <div class="col-3">
-                        <a href="/subjects/subject_writing.php"><img src="/images/courses_Writing.jpg" alt="Writing Image" height="150" width="150"></a>
+                        <a href="subjects/subject_writing.php"><img src="images/courses_Writing.jpg" alt="Writing Image" height="150" width="150"></a>
                     </div>
                 </div>
 
@@ -115,7 +115,7 @@
                     </div>
 
                     <div class="col-3">
-                        <a href="/subjects/computer_science.php"><img src="/images/subject_computing.jpg" alt="Computing Image" height="150" width="150"></a>
+                        <a href="subjects/computer_science.php"><img src="images/subject_computing.jpg" alt="Computing Image" height="150" width="150"></a>
                     </div>
                </div>
 
@@ -138,7 +138,7 @@
                     </div>
 
                     <div class="col-3">
-                        <a href="/subjects/subject_math.html"><img src="/images/subject_math.jpg" alt="Math Image" height="150" width="150"></a>
+                        <a href="subjects/subject_math.html"><img src="images/subject_math.jpg" alt="Math Image" height="150" width="150"></a>
                     </div>
                 </div>
 
@@ -161,7 +161,7 @@
                     </div>
 
                     <div class="col-3">
-                        <a href="/subjects/subject_fitness.html"><img src="/images/subject_fitness.jpg" alt="Fitness Image" height="150" width="150"></a>
+                        <a href="subjects/subject_fitness.html"><img src="images/subject_fitness.jpg" alt="Fitness Image" height="150" width="150"></a>
                     </div>
                 </div>
             </div>
