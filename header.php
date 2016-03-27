@@ -88,9 +88,7 @@
 	    <!-- navigation -->
 	    <div class="wrapper">
 	        <ul id="navbar">
-		        <li>
-		            <a href="/index.php">Home Page</a>
-		        </li>
+		        <li><a href="/index.php">Home Page</a></li>
 		        <li><a href="#">Subjects</a>
 			        <ul>
 				        <li class="subject"><a href="/subjects/subject_economy.html">Economics</a>
@@ -134,7 +132,7 @@
 					    </li>
 				    </ul>
 		        </li>
-
+                <li><a href="#">Forum</a></li>
 		        <li><a href="/career.php">Careers</a></li>
 		        <li><a href="/about.html">About Us</a></li>
 		        <li><a href="/contact_us.html">Contact Us</a></li>
