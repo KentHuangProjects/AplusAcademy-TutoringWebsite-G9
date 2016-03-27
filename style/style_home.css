@@ -25,6 +25,7 @@ h1 {
     padding:20px;
     margin: 10px 0px;
     text-align: center;
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.2);
   }
 
 /* Alternate background colors for content blocks */

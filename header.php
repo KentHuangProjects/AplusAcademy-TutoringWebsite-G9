@@ -1,24 +1,24 @@
 <!-- Main Header -->
         <div id="main-header">
-
-		    <!-- wrapper class which wraps the content inside specified width -->
-		    <div class="wrapper">
-		        <img src="/images/logo.jpg" height="50" width="50" alt="A+ Logo">
-			
-		        <div id="title">
-		            <p>A PLUS Academy <br id="title2"> Plan Learn Utilize Succeed</p>
-		        </div>
-			
-			    <div id="signin">
-			        <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post">
-			        <fieldset><legend>Sign-in</legend>
-			            <input type="text" name="email-address" placeholder="Email Address" required><span><a href="#">&nbsp;I want to deregister myself&nbsp;</a></span><br>
-			            <input type="password" name="password" placeholder="Password" required><span><a href="#">&nbsp;Forgot password</a></span><br>
-			            <input type="submit" class="btn btn-success">&nbsp;<span><a href="#" data-toggle="modal" data-target="#myModal">Not a member? Register here</a></span>
-                    </fieldset>
-			        </form>
-			    </div>	
+            <div id="logo">
+                <a href="/index.php"><img src="/images/logo.jpg" height="80" width="80" alt="A+ Logo"></a>
+            </div>
+		        
+		    <div id="title">
+                <h1>Aplus Academy</h1>
+                <h2>Plan Learn Utilize Succeed</h2>
 		    </div>
+			
+			<div id="signin">
+			    <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post">
+			        <fieldset>
+                        <legend>LOG IN</legend>
+			            <input type="text" name="email-address" placeholder="Email Address" required><span><a href="#">Deregister here</a></span><br>
+			            <input type="password" name="password" placeholder="Password" required><span><a href="#">Forgot password</a></span><br>
+			            <input type="submit" value="Log In" class="btn btn-success"><span><a href="#" data-toggle="modal" data-target="#myModal">Not a member? Register here</a></span>
+                    </fieldset>
+			    </form>
+			</div>	
 	    </div>
 
         <!-- Modal -->
@@ -88,9 +88,7 @@
 	    <!-- navigation -->
 	    <div class="wrapper">
 	        <ul id="navbar">
-		        <li>
-		            <a href="/index.php">Home Page</a>
-		        </li>
+		        <li><a href="/index.php">Home Page</a></li>
 		        <li><a href="#">Subjects</a>
 			        <ul>
 				        <li class="subject"><a href="/subjects/subject_economy.html">Economics</a>
@@ -134,8 +132,8 @@
 					    </li>
 				    </ul>
 		        </li>
-
-		        <li><a href="/career.html">Careers</a></li>
+                <li><a href="#">Forum</a></li>
+		        <li><a href="/career.php">Careers</a></li>
 		        <li><a href="/about.html">About Us</a></li>
 		        <li><a href="/contact_us.html">Contact Us</a></li>
             </ul>
