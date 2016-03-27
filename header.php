@@ -11,11 +11,12 @@
 			
 			<div id="signin">
 			    <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post">
-			    <fieldset><legend>Sign-in</legend>
-			        <input type="text" name="email-address" placeholder="Email Address" required><span><a href="#">&nbsp;I want to deregister myself&nbsp;</a></span><br>
-			        <input type="password" name="password" placeholder="Password" required><span><a href="#">&nbsp;Forgot password</a></span><br>
-			        <input type="submit" class="btn btn-success">&nbsp;<span><a href="#" data-toggle="modal" data-target="#myModal">Not a member? Register here</a></span>
-                </fieldset>
+			        <fieldset>
+                        <legend>LOG IN</legend>
+			            <input type="text" name="email-address" placeholder="Email Address" required><span><a href="#">Deregister here</a></span><br>
+			            <input type="password" name="password" placeholder="Password" required><span><a href="#">Forgot password</a></span><br>
+			            <input type="submit" value="Log In" class="btn btn-success"><span><a href="#" data-toggle="modal" data-target="#myModal">Not a member? Register here</a></span>
+                    </fieldset>
 			    </form>
 			</div>	
 	    </div>
