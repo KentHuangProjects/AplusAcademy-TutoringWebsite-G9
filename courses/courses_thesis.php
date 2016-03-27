@@ -38,20 +38,19 @@
 		        </div>
 			
 		        <div class="imageandrating">
-			        <img src="Image1.jpeg" alt="Profile1" height="125" width="125">
+			        <img src="images/RogerZhang.jpg" alt="Roger Zhang" height="163" width="122">
 		        </div>
 			
 		        <div class="tutordescrip">
 			        <h3>Roger Zhang</h3>
 			        <p>Educational Background:<br>MBA, University of British Columbia</p><br>
 			        <p>Experience:<br>Senior analyst at BMO</p><br>
-			        <p>Motivation:<br><br>~George, 1st year University, Vancouver</p>
-				
-		            <button type="button">Review button</button>
+			        <p>Motivation:<br>“Be the change that you wish to see in the world.”<br>~Mahatma Gandhi</p>
 		        </div>
 			
 			    <div class="review">
 			        <p>Review</p>
+                    <p>He changed my life and made me the writer and person I am today. Sensing my self-doubt, he made me write without editing myself and taught me not to listen to negativity. Take his courses because they will teach you more than how to write; they will teach you how to live.<br>~Anonymous</p>
 			    </div>
 		    </div>
 			
