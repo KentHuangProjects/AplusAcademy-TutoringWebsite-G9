@@ -1,7 +1,7 @@
 <!-- Main Header -->
         <div id="main-header">
             <div id="logo">
-                <img src="/images/logo.jpg" height="80" width="80" alt="A+ Logo">
+                <a href="/index.php"><img src="/images/logo.jpg" height="80" width="80" alt="A+ Logo"></a>
             </div>
 		        
 		    <div id="title">
@@ -135,7 +135,7 @@
 				    </ul>
 		        </li>
 
-		        <li><a href="/career.html">Careers</a></li>
+		        <li><a href="/career.php">Careers</a></li>
 		        <li><a href="/about.html">About Us</a></li>
 		        <li><a href="/contact_us.html">Contact Us</a></li>
             </ul>
