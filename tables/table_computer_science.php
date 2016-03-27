@@ -4,8 +4,8 @@
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link href="../style/base.css" rel="stylesheet" type="text/css">
-        <link href="../style/style_appointment_table_b.css" rel="stylesheet" type="text/css">
         <link href="../style/style_subject.css" rel="stylesheet" type="text/css">
+        <link href="../style/style_appointment_table_b.css" rel="stylesheet" type="text/css">
         <!--CSS for registeration form-->
         <link href="../style/style_registration.css" rel="stylesheet" type="text/css"/>
 
@@ -32,9 +32,11 @@
         ?>
 
         <!-- Main content section -->
-        <br><br><br><br>
-        <hr>
-        <br><br><br>
+	    <div id="main-content">
+		    <div id="header">
+			    <h1>Course Schedule</h1>
+		    </div>
+            <br>
 			<div id ="tale3">
 				<table> 
 					 <caption id ="caption3">Computer Science</caption>
@@ -74,12 +76,12 @@
 					    </tr>
 			    </table>
 		    </div>
-		    <hr id="aline">
 
-		   	<!-- Main Footer -->
-            <?php
-                include("../footer.php");
-            ?>
-	</div>
+        </div>
+		<!-- Main Footer -->
+        <?php
+            include("../footer.php");
+        ?>
+    </div>
 </body>
 </html>

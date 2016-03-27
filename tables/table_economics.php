@@ -32,50 +32,51 @@
         ?>
 
         <!-- Main content section -->
-        <br><br><br><br>
-        <hr>
-        <br><br><br>
-        <div id="tale1">
-			<table> 
-				 <caption id ="caption1">Economics</caption>
-				    <tr>
-					    <th>Tutors</th>
-					    <th colspan="7">Times</th>
-				    </tr>
-				    <tr>
-					    <td> </td>
-					    <td>Monday</td>
-					    <td>Tuesday</td>
-					    <td>Wednesday </td>
-					    <td>Thursday </td>
-					    <td>Friday </td>
-					    <td>Saturday </td>
-					    <td>Sunday </td>
-				    </tr>
-				    <tr>
-					    <td>Roger Zhang</td>
-					    <td><a href="registration_successful.html">Microeconomics<br>6pm-8pm</a></td>
-					    <td> </td>
-					    <td><a href="registration_successful.html">Microeconomics <br>6pm-8pm </a></td>
-					    <td> </td>
-					    <td><a href="registration_successful.html">Microeconomics <br>6pm-8pm </a></td>
-					    <td><a href="registration_successful.html">Entrepreneurship <br>9am-12pm </a></td>
-					    <td><a href="registration_successful.html">Entrepreneurs<br>12am-3pm</a></td>
-				    </tr>
-				    <tr>
-					    <td>Luke Lee</td>
-					    <td></td>
-					    <td><a href="registration_successful.html">Macroeconomics <br>7pm-9pm</a> </td>
-					    <td> </td>
-					    <td><a href="registration_successful.html">Macroeconomics <br>7pm-9pm </a></td>
-					    <td> </td>
-					    <td> </td>
-					    <td><a href="registration_successful.html">Entrepreneurs<br>9am-12pm</a></td>
-				    </tr>
-			    </table>
+        <div id="main-content">
+		    <div id="header">
+			    <h1>Course Schedule</h1>
 		    </div>
-		    <hr id="aline">
-
+            <br>
+            <div id="tale1">
+			    <table> 
+				     <caption id ="caption1">Economics</caption>
+				        <tr>
+					        <th>Tutors</th>
+					        <th colspan="7">Times</th>
+				        </tr>
+				        <tr>
+					        <td> </td>
+					        <td>Monday</td>
+					        <td>Tuesday</td>
+					        <td>Wednesday </td>
+					        <td>Thursday </td>
+					        <td>Friday </td>
+					        <td>Saturday </td>
+					        <td>Sunday </td>
+				        </tr>
+				        <tr>
+					        <td>Roger Zhang</td>
+					        <td><a href="registration_successful.html">Microeconomics<br>6pm-8pm</a></td>
+					        <td> </td>
+					        <td><a href="registration_successful.html">Microeconomics <br>6pm-8pm </a></td>
+					        <td> </td>
+					        <td><a href="registration_successful.html">Microeconomics <br>6pm-8pm </a></td>
+					        <td><a href="registration_successful.html">Entrepreneurship <br>9am-12pm </a></td>
+					        <td><a href="registration_successful.html">Entrepreneurs<br>12am-3pm</a></td>
+				        </tr>
+				        <tr>
+					        <td>Luke Lee</td>
+					        <td></td>
+					        <td><a href="registration_successful.html">Macroeconomics <br>7pm-9pm</a> </td>
+					        <td> </td>
+					        <td><a href="registration_successful.html">Macroeconomics <br>7pm-9pm </a></td>
+					        <td> </td>
+					        <td> </td>
+					        <td><a href="registration_successful.html">Entrepreneurs<br>9am-12pm</a></td>
+				        </tr>
+			        </table>
+		        </div>
+		    </div>
 		   	<!-- Main Footer -->
             <?php
                 include("../footer.php");
