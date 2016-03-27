@@ -1,24 +1,23 @@
 <!-- Main Header -->
         <div id="main-header">
-
-		    <!-- wrapper class which wraps the content inside specified width -->
-		    <div class="wrapper">
-		        <img src="/images/logo.jpg" height="50" width="50" alt="A+ Logo">
-			
-		        <div id="title">
-		            <p>A PLUS Academy <br id="title2"> Plan Learn Utilize Succeed</p>
-		        </div>
-			
-			    <div id="signin">
-			        <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post">
-			        <fieldset><legend>Sign-in</legend>
-			            <input type="text" name="email-address" placeholder="Email Address" required><span><a href="#">&nbsp;I want to deregister myself&nbsp;</a></span><br>
-			            <input type="password" name="password" placeholder="Password" required><span><a href="#">&nbsp;Forgot password</a></span><br>
-			            <input type="submit" class="btn btn-success">&nbsp;<span><a href="#" data-toggle="modal" data-target="#myModal">Not a member? Register here</a></span>
-                    </fieldset>
-			        </form>
-			    </div>	
+            <div id="logo">
+                <img src="/images/logo.jpg" height="80" width="80" alt="A+ Logo">
+            </div>
+		        
+		    <div id="title">
+                <h1>Aplus Academy</h1>
+                <h2>Plan Learn Utilize Succeed</h2>
 		    </div>
+			
+			<div id="signin">
+			    <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post">
+			    <fieldset><legend>Sign-in</legend>
+			        <input type="text" name="email-address" placeholder="Email Address" required><span><a href="#">&nbsp;I want to deregister myself&nbsp;</a></span><br>
+			        <input type="password" name="password" placeholder="Password" required><span><a href="#">&nbsp;Forgot password</a></span><br>
+			        <input type="submit" class="btn btn-success">&nbsp;<span><a href="#" data-toggle="modal" data-target="#myModal">Not a member? Register here</a></span>
+                </fieldset>
+			    </form>
+			</div>	
 	    </div>
 
         <!-- Modal -->

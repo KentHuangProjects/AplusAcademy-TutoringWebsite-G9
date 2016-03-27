@@ -5,7 +5,7 @@
 }
 
 body {
-    
+
 }
 
 /* The wrapper for the whole page */
@@ -17,55 +17,49 @@ body {
 
 /* The main header of the page */
 #main-header {
-    width: 100%;
-	height: 150px;
+    height: 140px;
 	background-color: white;
 	color: #365eb0;
-	top: 0;
-	left: 0;
-	border-top: 10px solid gray;
-	z-index:1;
+    
+    /* outside source */
+	background: #efefef;
+	background: -moz-linear-gradient(top, #bbbbbb 0%, #efefef 100%); 
+	background: -webkit-linear-gradient(top, #bbbbbb 0%, #efefef 100%);
+}
+
+#logo {
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+    padding: 10px;
 }
 
 #title {
-	text-align:center;    
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
 }
 
-#main-header img {
-	float: left;
-	margin-top: 25px;
-	margin-left: 25px;
-	padding-right: 10px;
+#title h1, #title h2 {
+    margin: 0px;
 }
 
 #signin {
-	float: right;
+    float: right;
+    height: 100%;
     display: inline-block;
-    margin-bottom: 5px;
 }
 
 #title #signin span {
 	font-size: 0.7em;
-	margin-left: 1em;
-}
-
-/* Style for the paragraph tag inside the header div */
-#main-header p {
-	float: left;
-	margin-top: 35px;
-	font-size: 28px;
-	color: #a3a3a3;
-}
-
-#title2{
-	color:white; 
 }
 
 .wrapper {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	z-index: 1;
+	clear: both;
 }
 
 #navbar {
@@ -74,12 +68,16 @@ body {
 	padding: 0;
 	float: left;
     width: 100%;
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.2);
+}
+
+#navbar ul {
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.2);
 }
 
 #navbar li{
     z-index: 1;
 	list-style-type: none;
-	padding: 10px 0 10px 0;
 	float: left;
 	width: 20%;
 	text-align: center;
@@ -90,9 +88,7 @@ body {
 	/* outside source */
 	background: #efefef;
 	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
-	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
-	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-	  
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);   
 }
 
 #navbar li.subject {
@@ -103,27 +99,13 @@ body {
     width: 200px;
 }
 
-#navbar > li:first-of-type {
-    border-radius: 5px 0px 0px 0px;
-}
-
-#navbar > li:last-of-type {
-    border-radius: 5px 5px 0px 0px;
-}
-
-#navbar ul li:last-of-type {
-    border-radius: 0px 0px 5px 5px; 
-}
-
 #navbar li a{
     text-decoration: none;
+    display: block;
+    padding: 10px 0;
 }
 
-#navbar li a:link{
-    color: #365eb0;
-}
-
-#navbar li a:visited{
+#navbar a:link, #navbar a:visited {
     color: #365eb0;
 }
 
