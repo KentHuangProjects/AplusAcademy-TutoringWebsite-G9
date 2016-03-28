@@ -24,7 +24,7 @@
         <!-- Latest compiled JavaScript -->
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <!-- Registeration form validation -->
-        <script type="text/javascript" src="js/registeration_Form_script.js"></script>
+        <script type="text/javascript" src="../js/registeration_Form_script.js"></script>
 <title>Economics</title>
 <meta charset="utf-8">
 
