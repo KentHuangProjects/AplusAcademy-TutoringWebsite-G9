@@ -9,7 +9,10 @@ form#regForm legend {
     font-style: italic; 
 }
 
-form#regForm input[type=text],form#regForm input[type=email],form#regForm input[type=password],form#regForm input[type=radio] {
+form#regForm input[type=text],
+form#regForm input[type=email],
+form#regForm input[type=password],
+form#regForm input[type=radio] {
 	padding: 0.8em 1em;
     margin: 0.5em 0.7em;
     border: 1px solid #b3abb9;
@@ -17,15 +20,22 @@ form#regForm input[type=text],form#regForm input[type=email],form#regForm input[
     box-sizing: border-box;
 }
 
-form#regForm input[type=text]:focus, form#regForm input[type=email]:focus, form#regForm input[type=password]:focus {
+form#regForm input[type=text]:focus, 
+form#regForm input[type=email]:focus, 
+form#regForm input[type=password]:focus {
     border: 3px solid;
 }
 
-form#regForm input[name=email], form#regForm input[name=school], form#regForm input[name=major], form#regForm input[name=password] {
+form#regForm input[name=email],
+form#regForm input[name=school],
+form#regForm input[name=major],
+form#regForm input[name=password_0], 
+form#regForm input[name=password_1] {
 	width: 95%;
 }
 
-form#regForm input[type=submit],form#regForm button[type=reset] {
+form#regForm input[type=submit],
+form#regForm button[type=reset] {
     background-color: #305ff6;
     color: white;
     padding: 1em 1.5em;

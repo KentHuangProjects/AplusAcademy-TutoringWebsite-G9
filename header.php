@@ -1,6 +1,20 @@
 <?php 
     include("config.php");
 ?>
+
+<script>
+	function checkLoggedIn() {
+		<?php
+			if (isLoggedIn()){
+				echo 'return true;';
+			} else {
+			echo 'alert("Only registered member can access forum; please sign-in first.");
+				  return false;';
+			}
+		?>
+	}
+</script>
+
         <!-- Main Header -->
         <div id="main-header">
 
@@ -32,11 +46,13 @@
               </form>
               </div>';
                 if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
-                  echo '<ul class="err">';
-                  foreach($_SESSION['ERRMSG_ARR'] as $msg) {
-                    echo '<li>',$msg,'</li>'; 
-                  }
-                  echo '</ul>';
+                  echo '<div id="signin">
+							<ul class="err">';
+							foreach($_SESSION['ERRMSG_ARR'] as $msg) {
+							echo '<li>',$msg,'</li>'; 
+							}
+						echo '</ul>
+						</div>';
                   unset($_SESSION['ERRMSG_ARR']);
                 }
             
@@ -58,16 +74,7 @@
                   <div class="modal-body">
                           <!--Regsisteration form-->
                           <div class="reg_pop">
-                          <?php
-                            if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
-                              echo '<ul class="err">';
-                              foreach($_SESSION['ERRMSG_ARR'] as $msg) {
-                                echo '<li>',$msg,'</li>'; 
-                              }
-                              echo '</ul>';
-                              unset($_SESSION['ERRMSG_ARR']);
-                            }
-                          ?>
+                          
                               <form name="regForm" action="register.php" method="post" id="regForm" >
                                   <fieldset>
                                       <input type="text" name="firstName" placeholder="Your First Name*" id="firstName"/>
@@ -75,8 +82,8 @@
                                       <input type="radio" name="gender" value="male" id="genderMale" >Male
                                       <input type="radio" name="gender" value="female" id="genderFemale">Female<span id="hintGenderValid"></span><br>
                                       <input type="email" name="email" placeholder="Your Email Address*" id="email" ><span id="hintEmailValid"></span><br>
-                                      <input type="password" name="password" placeholder="Your Password*" id="password_0"><span class="hintPasswordValid">Must contain at least 7 characters; at least 1 lowercase, 1 uppercase and 1 number.</span><br>
-                                      <input type="password" name="password" placeholder="Confirm Password*" id="password_1" ><span class="hintPasswordValid">Must contain at least 7 characters; at least 1 lowercase, 1 uppercase and 1 number.</span><br>
+                                      <input type="password" name="password_0" placeholder="Your Password*" id="password_0"><span class="hintPasswordValid">Must contain at least 7 characters; at least 1 lowercase, 1 uppercase and 1 number.</span><br>
+                                      <input type="password" name="password_1" placeholder="Confirm Password*" id="password_1" ><span class="hintPasswordValid">Must contain at least 7 characters; at least 1 lowercase, 1 uppercase and 1 number.</span><br>
                                       <br>               
                                       (Optional)<br>
                                       <input type="text" name="school" placeholder="School"><br>
@@ -166,7 +173,7 @@
 					    </li>
 				    </ul>
 		        </li>
-                <li><a href="http://<?php echo $root; ?>forum.php">Forum</a></li>
+                <li><a href="http://<?php echo $root; ?>forum.php" onclick="return checkLoggedIn()">Forum</a></li>
 		        <li><a href="http://<?php echo $root; ?>career.php">Careers</a></li>
 		        <li><a href="http://<?php echo $root; ?>about.php">About Us</a></li>
 		        <li><a href="http://<?php echo $root; ?>contact_us.php">Contact Us</a></li>
