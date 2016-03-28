@@ -3,8 +3,8 @@
 <head> 
 	<title>Microeconomics</title>
 	<meta charset="utf-8">
-    <link href="style/base.css" rel="stylesheet" type="text/css">
-	<link href="style/style_courses.css" rel="stylesheet" type="text/css">
+    <link href="../style/base.css" rel="stylesheet" type="text/css">
+	<link href="../style/style_courses.css" rel="stylesheet" type="text/css">
 
         <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -37,7 +37,7 @@
 		        </div>
 		
 		        <div class="imageandrating">
-			        <img src="images/LukeLee.jpg" alt="Profile2" height="195" width="195">
+			        <img src="images/LukeLee.jpg" alt="Profile2" height="260" width="200">
 		        </div>
 			
 		        <div class="tutordescrip">
