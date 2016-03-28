@@ -52,6 +52,9 @@
             <div class="body_wrapper">
             <!-- body Header -->
             <div class="forum">
+                <?php
+                if (isLoggedIn()) {
+                    echo '
                 <div class="top_column">
                     <!-- display a bar with topic title -->
                     <div class="title_bar">
@@ -70,9 +73,9 @@
                       ?>
 
                       <tr>
-                      <td align="center" bgcolor="#FFFFFF"><?php echo $rows['id']; ?></td>
-                      <td align="center" bgcolor="#FFFFFF"><a href="view_topic.php?id=<?php echo $rows['id']; ?>"><?php echo $rows['topic']; ?></a><BR></td>
-                      <td align="center" align="center" bgcolor="#FFFFFF"><?php echo $rows['datetime']; ?></td>
+                      <td align="center" bgcolor="#FFFFFF"><?php echo $rows["id"]; ?></td>
+                      <td align="center" bgcolor="#FFFFFF"><a href="view_topic.php?id=<?php echo $rows["id"]; ?>"><?php echo $rows["topic"]; ?></a><BR></td>
+                      <td align="center" align="center" bgcolor="#FFFFFF"><?php echo $rows["datetime"]; ?></td>
                       </tr>
 
                       <?php
@@ -86,7 +89,14 @@
                       </table>
                     </div> <!-- end of class content_box -->
                 </div> <!-- end of class row_top -->
-
+                ';
+             } else {
+                 echo '<div id="main-content">
+						<h2>Only registered member can access forum;</h2>
+						<h2>please sign-in first.</h2>
+					   </div>';
+             }
+             ?>
             </div> <!-- end of class forum -->
         </div><!--closing body_Wrapper--> 
 
