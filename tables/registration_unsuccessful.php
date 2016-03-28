@@ -36,7 +36,8 @@
     <div id="main-wrapper">
 
         <?php
-            include ("../header.php");
+            include("../config.php");
+            include(ROOT."header.php");
         ?>
 
         <!-- main content section -->
@@ -53,7 +54,8 @@
 
         <!-- Main Footer -->
         <?php
-            include("../footer.php");
+            include("../config.php");
+            include(ROOT."footer.php");
         ?>
     </div>
 </body>

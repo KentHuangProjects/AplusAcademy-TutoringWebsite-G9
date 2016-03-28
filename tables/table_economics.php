@@ -37,7 +37,8 @@
         
         <!-- Main Header -->
         <?php
-            include ("../header.php");
+            include("../config.php");
+            include(ROOT."header.php");
         ?>
 
         <!-- Main content section -->
@@ -87,9 +88,10 @@
 		        </div>
 		    </div>
 		   	<!-- Main Footer -->
-            <?php
-                include("../footer.php");
-            ?>
+        <?php
+            include("../config.php");
+            include(ROOT."footer.php");
+        ?>
 	</div>
 </body>
 </html>
