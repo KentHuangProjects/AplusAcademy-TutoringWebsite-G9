@@ -8,11 +8,16 @@ body {
 
 }
 
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
 /* The wrapper for the whole page */
 #main-wrapper {
     width: 100%;
     margin: auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 /* The main header of the page */
