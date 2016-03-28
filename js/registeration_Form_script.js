@@ -50,7 +50,7 @@
 						else if($("#password_0").val() != $("#password_1").val()){
 						$(".hintPasswordValid").css("color", "red");
 						$(".hintPasswordValid").text("Two password are different.");
-                        .preventDefault();
+                        			e.preventDefault();
 						} else {
 						$(".hintPasswordValid").css("color", "#b3abb9");
 						$(".hintPasswordValid").text("Must contain at least 7 characters; at least 1 lowercase, 1 uppercase and 1 number.");
