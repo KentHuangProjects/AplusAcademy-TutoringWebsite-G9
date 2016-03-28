@@ -15,7 +15,7 @@
 
     <script type="text/javascript" src="js/career_form.js"></script>
 
-        <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!--CSS for registeration form-->
     <link href="style/style_registration.css" rel="stylesheet" type="text/css"/>
@@ -48,8 +48,8 @@
 	        
 			<!-- Successful message -->
 			<div id="message">
-				<h3>Application Successful!!</h3>
-				<p>Thank you for applying with us. Please wait up to 2 weeks to process your application, and we will get back to you.</p>
+				<h3>Application Received</h3>
+				<p>Thank you for applying with us. Please wait up to 2 weeks for processing your application, and we will get back to you.</p>
 			</div>
 
 	    </div>
