@@ -79,7 +79,7 @@
                     </div>
 
                     <div class="col-3">
-                        <a href="subjects/subject_economy.html"><img src="images/economics_title.jpg" alt="Economics Image" height="150" width="150"></a> 
+                        <a href="subjects/subject_economy.php"><img src="images/economics_title.jpg" alt="Economics Image" height="150" width="150"></a> 
                     </div>
                 </div>
 
@@ -148,7 +148,7 @@
                     </div>
 
                     <div class="col-3">
-                        <a href="subjects/subject_math.html"><img src="images/subject_math.jpg" alt="Math Image" height="150" width="150"></a>
+                        <a href="subjects/subject_math.php"><img src="images/subject_math.jpg" alt="Math Image" height="150" width="150"></a>
                     </div>
                 </div>
 
@@ -171,7 +171,7 @@
                     </div>
 
                     <div class="col-3">
-                        <a href="subjects/subject_fitness.html"><img src="images/subject_fitness.jpg" alt="Fitness Image" height="150" width="150"></a>
+                        <a href="subjects/subject_fitness.php"><img src="images/subject_fitness.jpg" alt="Fitness Image" height="150" width="150"></a>
                     </div>
                 </div>
             </div>
