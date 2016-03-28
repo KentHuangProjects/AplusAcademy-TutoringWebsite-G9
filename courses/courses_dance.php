@@ -36,7 +36,7 @@
 		        </div>
 		
 		        <div class="imageandrating">
-			        <img src="images/face_1.png" alt="Profile1" height="195" width="195">
+			        <img src="images/EricLin.jpg" alt="Profile1" height="195" width="195">
 		        </div>
 			
 		        <div class="tutordescrip">
