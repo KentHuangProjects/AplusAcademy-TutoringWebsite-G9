@@ -2,12 +2,7 @@
 
 body{
 	background-color: gray;
-}
-
-body.writing {
-    background-image: url("../courses/images/writing_background.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom right;
+	color: white;
 }
 
 /* Left Side */
