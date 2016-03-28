@@ -1,26 +1,46 @@
-<!-- Main Header -->
+        <!-- Main Header -->
         <div id="main-header">
-            <div id="logo">
-                <a href="index.php"><img src="images/logo.jpg" height="80" width="80" alt="A+ Logo"></a>
+
+        <!-- wrapper class which wraps the content inside specified width -->
+        <div class="wrapper">
+            <img src="images/logo.jpg" height="50" width="50" alt="A+ Logo">
+      
+            <div id="title">
+                <p>A PLUS Academy <br id="title2"> Plan Learn Utilize Succeed</p>
             </div>
-		        
-		    <div id="title">
-                <h1>Aplus Academy</h1>
-                <h2>Plan Learn Utilize Succeed</h2>
-		    </div>
-			           
-                    <div id="signin">
-			            <form action="login.php" method="post">
-                            <fieldset>
-                                <legend>LOG IN</legend>
-			                    <input type="text" name="email-address" placeholder="Email Address" required><span><a href="#">Deregister here</a></span><br>
-			                    <input type="password" name="password" placeholder="Password" required><span><a href="#">Forgot password</a></span><br>
-			                    <input type="submit" value="Log In" class="btn btn-success"><span><a href="#" data-toggle="modal" data-target="#myModal">Not a member? Register here</a></span>
-                            </fieldset>
-			            </form>
-                    </div>';
-                   
-	    </div>
+            
+      <?php
+        if (isLoggedIn()){
+          echo '<div id="signin">
+          <h4>Here you are</h4>';
+          echo '<h5>Welcome '.$_SESSION['SESS_FIRST_NAME'].', '.$_SESSION['SESS_LAST_NAME'].'</h5>';
+          echo '<h5><a href="logout.php">Logout</a></h5>';
+          echo '</div>';
+
+        } else {echo '
+          <div id="signin">
+              <form action="login.php" method="post">
+
+              <fieldset><legend>Sign-in</legend>
+                  <input type="text" name="email-address" placeholder="Email Address" required><span><a href="#">&nbsp;I want to deregister myself&nbsp;</a></span><br>
+                  <input type="password" name="password" placeholder="Password" required><span><a href="#">&nbsp;Forgot password</a></span><br>
+                  <input type="submit" class="btn btn-success">&nbsp;<span><a href="#" data-toggle="modal" data-target="#myModal">Not a member? Register here</a></span>
+                    </fieldset>
+              </form>
+              </div>';
+                if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
+                  echo '<ul class="err">';
+                  foreach($_SESSION['ERRMSG_ARR'] as $msg) {
+                    echo '<li>',$msg,'</li>'; 
+                  }
+                  echo '</ul>';
+                  unset($_SESSION['ERRMSG_ARR']);
+                }
+            
+          }
+          ?>
+        </div>
+      </div>
 
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">
@@ -35,6 +55,16 @@
                   <div class="modal-body">
                           <!--Regsisteration form-->
                           <div class="reg_pop">
+                          <?php
+                            if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
+                              echo '<ul class="err">';
+                              foreach($_SESSION['ERRMSG_ARR'] as $msg) {
+                                echo '<li>',$msg,'</li>'; 
+                              }
+                              echo '</ul>';
+                              unset($_SESSION['ERRMSG_ARR']);
+                            }
+                          ?>
                               <form name="regForm" action="register.php" method="post" id="regForm" >
                                   <fieldset>
                                       <input type="text" name="firstName" placeholder="Your First Name*" id="firstName"/>
@@ -133,7 +163,7 @@
 					    </li>
 				    </ul>
 		        </li>
-                <li><a href="#">Forum</a></li>
+                <li><a href="forum.php">Forum</a></li>
 		        <li><a href="career.php">Careers</a></li>
 		        <li><a href="about.php">About Us</a></li>
 		        <li><a href="contact_us.php">Contact Us</a></li>
