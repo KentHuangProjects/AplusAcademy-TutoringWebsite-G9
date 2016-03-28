@@ -1,3 +1,6 @@
+<?php 
+    include("config.php");
+?>
         <!-- Main Header -->
         <div id="main-header">
 
@@ -119,53 +122,53 @@
 	    <!-- navigation -->
 	    <div class="wrapper">
 	        <ul id="navbar">
-		        <li><a href="index.php">Home Page</a></li>
+		        <li><a href="http://<?php echo $root; ?>index.php">Home Page</a></li>
 		        <li><a href="#">Subjects</a>
 			        <ul>
-				        <li class="subject"><a href="subjects/subject_economy.php">Economics</a>
+				        <li class="subject"><a href="http://<?php echo $root; ?>subjects/subject_economy.php">Economics</a>
                             <ul>
-					            <li><a href="courses/courses_macroeconomics.php">Macro</a></li>
-							    <li><a href="courses/courses_microeconomics.php">Micro</a></li>
-							    <li><a href="courses/courses_entrepreneurship.php">Entrepreneurship</a></li>
+					            <li><a href="http://<?php echo $root; ?>courses/courses_macroeconomics.php">Macro</a></li>
+							    <li><a href="http://<?php echo $root; ?>courses/courses_microeconomics.php">Micro</a></li>
+							    <li><a href="http://<?php echo $root; ?>courses/courses_entrepreneurship.php">Entrepreneurship</a></li>
 						    </ul>
 					    </li>
 
-					    <li class="subject"><a href="subjects/subject_writing.php">Professional Writing</a>
+					    <li class="subject"><a href="http://<?php echo $root; ?>subjects/subject_writing.php">Professional Writing</a>
 					        <ul>
-						        <li><a href="courses/courses_essay.php">Essay</a></li>
-						        <li><a href="courses/courses_report.php">Report</a></li>
-						        <li><a href="courses/courses_thesis.php">Thesis</a></li>
+						        <li><a href="http://<?php echo $root; ?>courses/courses_essay.php">Essay</a></li>
+						        <li><a href="http://<?php echo $root; ?>courses/courses_report.php">Report</a></li>
+						        <li><a href="http://<?php echo $root; ?>courses/courses_thesis.php">Thesis</a></li>
 					        </ul>
 					    </li>
 
-					    <li class="subject"><a href="subjects/computer_science.php">Computer Science</a>
+					    <li class="subject"><a href="http://<?php echo $root; ?>subjects/computer_science.php">Computer Science</a>
                             <ul>
-						        <li><a href="courses/html.php">HTML</a></li>
-							    <li><a href="courses/cplusplus.php">C++</a></li>
-							    <li><a href="courses/java.php">Java</a></li>
+						        <li><a href="http://<?php echo $root; ?>courses/html.php">HTML</a></li>
+							    <li><a href="http://<?php echo $root; ?>courses/cplusplus.php">C++</a></li>
+							    <li><a href="http://<?php echo $root; ?>courses/java.php">Java</a></li>
 						    </ul>
 					    </li>
 
-					    <li class="subject"><a href="subjects/subject_math.php">Math</a>
+					    <li class="subject"><a href="http://<?php echo $root; ?>subjects/subject_math.php">Math</a>
                             <ul>
-						        <li><a href="courses/courses_calculus.php">Calculus</a></li>
-						        <li><a href="courses/courses_matrix.php">Matrix</a></li>
-						        <li><a href="courses/courses_algebra.php">Algebra</a></li>
+						        <li><a href="http://<?php echo $root; ?>courses/courses_calculus.php">Calculus</a></li>
+						        <li><a href="http://<?php echo $root; ?>courses/courses_matrix.php">Matrix</a></li>
+						        <li><a href="http://<?php echo $root; ?>courses/courses_algebra.php">Algebra</a></li>
 						    </ul>
 					    </li>
 
-					    <li class="subject"><a href="subjects/subject_fitness.php">Fitness</a>
+					    <li class="subject"><a href="http://<?php echo $root; ?>subjects/subject_fitness.php">Fitness</a>
                             <ul>
-						        <li><a href="/courses/courses_sports.php">Sports</a></li>
-						        <li><a href="/courses/courses_weight_training.php">Weight training</a></li>
-						        <li><a href="/courses/courses_dance.php">Dance</a></li>
+						        <li><a href="http://<?php echo $root; ?>courses/courses_sports.php">Sports</a></li>
+						        <li><a href="http://<?php echo $root; ?>courses/courses_weight_training.php">Weight training</a></li>
+						        <li><a href="http://<?php echo $root; ?>courses/courses_dance.php">Dance</a></li>
 						    </ul>
 					    </li>
 				    </ul>
 		        </li>
-                <li><a href="forum.php">Forum</a></li>
-		        <li><a href="career.php">Careers</a></li>
-		        <li><a href="about.php">About Us</a></li>
-		        <li><a href="contact_us.php">Contact Us</a></li>
+                <li><a href="http://<?php echo $root; ?>forum.php">Forum</a></li>
+		        <li><a href="http://<?php echo $root; ?>career.php">Careers</a></li>
+		        <li><a href="http://<?php echo $root; ?>about.php">About Us</a></li>
+		        <li><a href="http://<?php echo $root; ?>contact_us.php">Contact Us</a></li>
             </ul>
         </div>
