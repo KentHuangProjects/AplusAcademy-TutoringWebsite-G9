@@ -47,7 +47,6 @@
 			        <p>Motivation:<br><br>"Pain makes me grow. Growing is what I want. Therefore, for me pain is pleasure." </p>
 			        <p>~Arnold Schwarzenegger </p>
 				
-			        <button type="button">Review button</button>
 		        </div>
 			
 		        <div class="review">

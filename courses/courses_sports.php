@@ -47,7 +47,6 @@
 			        <p>Motivation:<br><br>"Your badminton goals should be out of reach, but never out of sight."</p>
 			        <p>~Felicity Luckey</p>
 				
-			        <button type="button">Review button</button>
 		        </div>
 			
 		        <div class="review">

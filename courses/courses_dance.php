@@ -36,7 +36,7 @@
 		        </div>
 		
 		        <div class="imageandrating">
-			        <img src="images/EricLin.jpg" alt="Profile1" height="260" width="200">
+			        <img src="images/EricLin.JPG" alt="Profile1" height="260" width="200">
 		        </div>
 			
 		        <div class="tutordescrip">
@@ -46,12 +46,11 @@
 			        <p>Motivation:<br><br>"When you have a good workout, it clears everything up mentally, physically, and you just have a better day."</p>
 			        <p>~Minka Kelly</p>
 				
-			        <button type="button">Review button</button>
 		        </div>
 			
 		        <div class="review">
 			        <p>Review</p><br>
-			        <p>"High energy, fast paced lessons that get you sweating and jamming to the beat. This really helped me get into shape and enjoy myself while I was at it. This is a kind a exercise I can really fall in love with and I think others will feel the same way. Eric is a phenomenal teacher and really encouraged me to get fit and lose fat. I now feel more energetic throughout the day." ~Grace, 3nd year University, Burnaby</p>
+			        <p>"High energy, fast paced lessons that get you sweating and jamming to the beat. This really helped me get into shape and enjoy myself while I was at it. This is a kind a exercise I can really fall in love with and I think others will feel the same way. Eric is a phenomenal teacher and really encouraged me to get fit and lose fat. I now feel more energetic throughout the day." ~Grace, 3rd year University, Burnaby</p>
 		        </div>
 	        </div>
 

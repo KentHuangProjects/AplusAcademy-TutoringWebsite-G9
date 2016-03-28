@@ -39,7 +39,7 @@
 		        </div>
 			
 		        <div class="imageandrating">
-			        <img src="images/LukeLee.jpg" alt="Luke Lee" height="163" width="122">
+			        <img src="images/LukeLee.jpg" alt="Luke Lee" height="260" width="200">
 		        </div>
 			
 		        <div class="tutordescrip">
