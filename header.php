@@ -5,13 +5,14 @@
         <!-- Main Header -->
         <div id="main-header">
 
-        <!-- wrapper class which wraps the content inside specified width -->
-        <div class="wrapper">
-            <img src="images/logo.jpg" height="50" width="50" alt="A+ Logo">
-      
-            <div id="title">
-                <p>A PLUS Academy <br id="title2"> Plan Learn Utilize Succeed</p>
+            <div id="logo">
+                <a href="http://<?php echo $root; ?>index.php"><img src="images/logo.jpg" height="80" width="80" alt="A+ Logo"></a>
             </div>
+		        
+		    <div id="title">
+                <h1>Aplus Academy</h1>
+                <h2>Plan Learn Utilize Succeed</h2>
+		    </div>
             
       <?php
         if (isLoggedIn()){
@@ -45,7 +46,6 @@
             
           }
           ?>
-        </div>
       </div>
 
         <!-- Modal -->
