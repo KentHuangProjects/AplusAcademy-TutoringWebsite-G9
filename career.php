@@ -49,7 +49,7 @@
 		    </div>
 	        
             <!-- career form -->
-	        <form id="career-form" onsubmit="return validateForm();" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+	        <form id="career-form" onsubmit="return validateForm();" method="post" action="career_success.php">
 	            <div class="left">
                     <fieldset><legend>Personal</legend>
                         <!-- name -->
