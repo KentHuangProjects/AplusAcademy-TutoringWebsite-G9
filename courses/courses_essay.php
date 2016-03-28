@@ -86,7 +86,7 @@
                     <!-- reference from https://cstudies.ubc.ca/study-topic/professional-writing -->
 			    </div>
 			
-			    <button type="button" onclick="location.href='table_professional_writing.html'">Book now</button>
+			    <button type="button" onclick="location.href='http://<?php echo $root; ?>tables/table_professional_writing.php'">Book now</button>
 		    </div>
 	    </div>
 

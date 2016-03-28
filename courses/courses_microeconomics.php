@@ -79,7 +79,7 @@
 				    <p>-Market organization</p>
 			    </div>
 			
-		        <button type="button" onclick="location.href='table_economics.html'">Book now</button>
+		        <button type="button" onclick="location.href='http://<?php echo $root; ?>tables/table_economics.php'">Book now</button>
 	        </div>
         </div>
 

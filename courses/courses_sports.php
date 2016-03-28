@@ -78,7 +78,7 @@
 				    <p>-Evaluate short term and long term goals</p>
 			    </div>
 			
-		        <button type="button" onclick="location.href='table_fitness.html'">Book now</button>
+		        <button type="button" onclick="location.href='http://<?php echo $root; ?>tables/table_fitness.php'">Book now</button>
 	        </div>
         </div>
 

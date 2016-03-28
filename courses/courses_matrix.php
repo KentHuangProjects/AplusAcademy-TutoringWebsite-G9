@@ -94,7 +94,7 @@
 			        <p></p>
 		        </div>
 			
-		        <button type="button" onclick="location.href='Table_Math.html'">Book now</button>
+		        <button type="button" onclick="location.href='http://<?php echo $root; ?>tables/table_math.php'">Book now</button>
 	        </div>
         </div>
 
