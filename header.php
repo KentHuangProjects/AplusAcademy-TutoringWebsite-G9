@@ -2,19 +2,6 @@
     include("config.php");
 ?>
 
-<script>
-	function checkLoggedIn() {
-		<?php
-			if (isLoggedIn()){
-				echo 'return true;';
-			} else {
-			echo 'alert("Only registered member can access forum; please sign-in first.");
-				  return false;';
-			}
-		?>
-	}
-</script>
-
         <!-- Main Header -->
         <div id="main-header">
 
@@ -173,7 +160,7 @@
 					    </li>
 				    </ul>
 		        </li>
-                <li><a href="http://<?php echo $root; ?>forum.php" onclick="return checkLoggedIn()">Forum</a></li>
+                <li><a href="http://<?php echo $root; ?>forum.php">Forum</a></li>
 		        <li><a href="http://<?php echo $root; ?>career.php">Careers</a></li>
 		        <li><a href="http://<?php echo $root; ?>about.php">About Us</a></li>
 		        <li><a href="http://<?php echo $root; ?>contact_us.php">Contact Us</a></li>
