@@ -1,5 +1,6 @@
 body {
-	background-color: gray;
+    background-image: url("../images/light-background2.jpg");
+    background-repeat: no-repeat;
 }
 /* SUBJECT Page ---------------------------------*/
 
@@ -7,7 +8,9 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	width:80%;
-	background-color: gray;
+	background-color: #D2DBE2;
+	opacity: 0.8;
+
 }
 
 header {
