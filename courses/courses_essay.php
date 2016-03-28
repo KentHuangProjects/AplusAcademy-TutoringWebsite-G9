@@ -34,9 +34,10 @@
     <!-- main wrapper wraps the whole page -->
     <div id="main-wrapper">
 
-        <?php
-            include ("../header.php");
-        ?>
+<?php
+    include("../config.php");
+    include(ROOT."header.php");
+?>
 
         <!-- main content section -->
         <div id="main-content">

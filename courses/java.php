@@ -37,7 +37,8 @@
     <div id="main-wrapper">
 
 <?php
-    include ("../header.php");
+	include("../config.php");
+    include(ROOT."header.php");
 ?>
 
         <!-- main content section -->
