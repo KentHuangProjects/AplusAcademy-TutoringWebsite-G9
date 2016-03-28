@@ -34,9 +34,10 @@
     <body>
         <div id="main-wrapper">
         
-        <?php
-            include ("../header.php");
-        ?>
+<?php
+    include("../config.php");
+    include(ROOT."header.php");
+?>
         
         <!-- Main content section -->
 	    <header>
@@ -83,9 +84,10 @@
 	    </div>
 
         <!-- Main footer -->
-	    <?php
-            include("../footer.php");
-        ?>
+<?php
+    include("../config.php");
+    include(ROOT."footer.php");
+?>
     </div>
 </body>
 </html>

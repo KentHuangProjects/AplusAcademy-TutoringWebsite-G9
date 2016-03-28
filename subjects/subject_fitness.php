@@ -34,9 +34,10 @@
     <body>
         <div id="main-wrapper">
 			<!-- Main Header -->
-			<?php
-				include ("../header.php");
-			?>
+<?php
+    include("../config.php");
+    include(ROOT."header.php");
+?>
 
 	    <header>
 	        <h1>Fitness</h1>
@@ -82,9 +83,10 @@
 	    </div>
 
 	    <!-- Main Footer -->
-		    <?php
-			    include("../footer.php");
-		    ?>
+<?php
+    include("../config.php");
+    include(ROOT."footer.php");
+?>
     </div>
 </body>
 </html>

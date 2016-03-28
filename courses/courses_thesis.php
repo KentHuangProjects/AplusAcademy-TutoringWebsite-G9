@@ -89,9 +89,10 @@
 	    </div>
 
         <!-- Main Footer -->
-        <?php
-            include("../footer.php");
-        ?>
+<?php
+    include("../config.php");
+    include(ROOT."footer.php");
+?>
 	</div>
 </body>
 </html>

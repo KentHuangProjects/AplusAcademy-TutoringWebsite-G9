@@ -82,7 +82,8 @@
         </div>
 
 <?php
-    include ("../footer.php");
+    include("../config.php");
+    include(ROOT."footer.php");
 ?>
 	</div>
 </body>

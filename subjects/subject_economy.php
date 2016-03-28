@@ -33,9 +33,9 @@
 
     <body>
         <div id="main-wrapper">
-        
 <?php
-	include ("../header.php");
+    include("../config.php");
+    include(ROOT."header.php");
 ?>
 
 	    <header>
@@ -81,10 +81,10 @@
 		    </div>
 	    </div>
 
-<?php 
-	include ("../footer.php");
+<?php
+    include("../config.php");
+    include(ROOT."footer.php");
 ?>
-
     </div>
 </body>
 </html>
