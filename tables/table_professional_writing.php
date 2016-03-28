@@ -65,22 +65,22 @@
 	                    </tr>
 	                    <tr>
 		                    <td>Luke Lee</td>
-		                    <td><a href="registration_successful.html">Essay Writing <br>5pm-6pm</a></td>
+		                    <td><?php include ("tablesCheck.php"); ?>Essay Writing <br>5pm-6pm</a></td>
 		                    <td></td>
-		                    <td><a href="registration_successful.html">Essay Writing  <br>5pm-6pm </a></td>
+		                    <td><?php include ("tablesCheck.php"); ?>Essay Writing  <br>5pm-6pm </a></td>
 		                    <td> </td>
 		                    <td> </td>
-		                    <td><a href="registration_successful.html">Report Writing <br>12pm-2pm </a> </td>
-		                    <td><a href="registration_successful.html">Report Writing <br>12pm-2pm </a></td>
+		                    <td><?php include ("tablesCheck.php"); ?>Report Writing <br>12pm-2pm </a> </td>
+		                    <td><?php include ("tablesCheck.php"); ?>Report Writing <br>12pm-2pm </a></td>
 	                    </tr>
 	                    <tr>
 		                    <td>Roger Zhang </td>
 		                    <td></td>
-		                    <td><a href="registration_successful.html">Thesis <br>6pm-8pm</a> </td>
+		                    <td><?php include ("tablesCheck.php"); ?>Thesis <br>6pm-8pm</a> </td>
 		                    <td> </td>
-		                    <td><a href="registration_successful.html">Thesis <br>6pm-8pm  </a></td>
+		                    <td><?php include ("tablesCheck.php"); ?>Thesis <br>6pm-8pm  </a></td>
 		                    <td> </td>
-		                    <td><a href="registration_successful.html">Thesis <br>12pm-2pm </a> </td>
+		                    <td><?php include ("tablesCheck.php"); ?>Thesis <br>12pm-2pm </a> </td>
 		                    <td> </td>
 	                    </tr>
 	              </table>

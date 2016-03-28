@@ -65,23 +65,23 @@
 					    </tr>
 					    <tr>
 						    <td>Kent Huang</td>
-						    <td><a href="registration_successful.html">Calculus <br>7pm-8pm</a></td>
+						    <td><?php include ("tablesCheck.php"); ?>Calculus <br>7pm-8pm</a></td>
 						    <td> </td>
 						    <td> </td>
-						    <td><a href="registration_successful.html">Calculus <br>7pm-8pm </a></td>
+						    <td><?php include ("tablesCheck.php"); ?>Calculus <br>7pm-8pm </a></td>
 						    <td> </td>
 						    <td> </td>
-						    <td><a href="registration_successful.html">Matirx<br>9am-11am</a></td>
+						    <td><?php include ("tablesCheck.php"); ?>Matirx<br>9am-11am</a></td>
 					    </tr>
 					    <tr>
 						    <td>Kabir Cahill </td>
 						    <td> </td>
 						    <td> </td>
-						    <td><a href="registration_successful.html">Algebra <br>6pm-7pm </a></td>
-						    <td><a href="registration_successful.html">Algebra <br>6pm-7pm </a></td>
+						    <td><?php include ("tablesCheck.php"); ?>Algebra <br>6pm-7pm </a></td>
+						    <td><?php include ("tablesCheck.php"); ?>Algebra <br>6pm-7pm </a></td>
 						    <td> </td>
 						    <td> </td>
-						    <td><a href="registration_successful.html">Matirx<br>11am-1pm </a></td>
+						    <td><?php include ("tablesCheck.php"); ?>Matirx<br>11am-1pm </a></td>
 					    </tr>
 			    </table>
 		    </div>

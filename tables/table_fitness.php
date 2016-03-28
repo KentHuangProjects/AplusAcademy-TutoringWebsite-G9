@@ -65,22 +65,22 @@
 					    </tr>
 					    <tr>
 						    <td>Eric Lin</td>
-						    <td><a href="registration_successful.html">Dance <br>6pm-9pm</a></td>
+						    <td><?php include ("tablesCheck.php"); ?>Dance <br>6pm-9pm</a></td>
 						    <td> </td>
 						    <td> </td>
 						    <td> </td>
-						    <td><a href="registration_successful.html">Dance <br>6pm-9pm</a> </td>
-						    <td><a href="registration_successful.html">Weight Trianing <br>9am-12pm </a></td>
-						    <td><a href="registration_successful.html">Weight Trianing <br>9am-12pm </a></td>
+						    <td><?php include ("tablesCheck.php"); ?>Dance <br>6pm-9pm</a> </td>
+						    <td><?php include ("tablesCheck.php"); ?>Weight Trianing <br>9am-12pm </a></td>
+						    <td><?php include ("tablesCheck.php"); ?>Weight Trianing <br>9am-12pm </a></td>
 					    </tr>
 					    <tr>
 						    <td>Kent Huang </td>
 						    <td> </td>
 						    <td> </td>
-						    <td><a href="registration_successful.html">Yoga <br>6pm-8pm </a></td>
+						    <td><?php include ("tablesCheck.php"); ?>Yoga <br>6pm-8pm </a></td>
 						    <td> </td>
 						    <td> </td>
-						    <td><a href="registration_successful.html">Yoga <br>5pm-7pm</a> </td>
+						    <td><?php include ("tablesCheck.php"); ?>Yoga <br>5pm-7pm</a> </td>
 						    <td> </td>
 					    </tr>
 			    </table>

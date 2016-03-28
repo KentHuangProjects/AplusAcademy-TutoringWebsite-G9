@@ -66,20 +66,20 @@
 					    </tr>
 					    <tr>
 						    <td>Kabir Cahill</td>
-						    <td><a href="registration_successful.html">Java <br>6pm-8pm</a></td>
-						    <td><a href="registration_successful.html">Java <br>6pm-8pm</a> </td>
+						    <td><?php include ("tablesCheck.php"); ?>Java <br>6pm-8pm</a></td>
+						    <td><?php include ("tablesCheck.php"); ?>Java <br>6pm-8pm</a> </td>
 						    <td> </td>
 						    <td> </td>
 						    <td> </td>
-						    <td><a href="registration_successful.html">C++ <br>10am-12pm</a>  </td>
-						    <td><a href="registration_successful.html">C++ <br>10am-12pm</a></td>
+						    <td><?php include ("tablesCheck.php"); ?>C++ <br>10am-12pm</a>  </td>
+						    <td><?php include ("tablesCheck.php"); ?>C++ <br>10am-12pm</a></td>
 					    </tr>
 					    <tr>
 						    <td>Eric Lin </td>
 						    <td> </td>
 						    <td> </td>
-						    <td><a href="registration_successful.html">HTML <br>6pm-8pm</a></td>
-						    <td><a href="registration_successful.html">HTML <br>6pm-8pm </a></td>
+						    <td><?php include ("tablesCheck.php"); ?>HTML <br>6pm-8pm</a></td>
+						    <td><?php include ("tablesCheck.php"); ?>HTML <br>6pm-8pm </a></td>
 						    <td> </td>
 						    <td> </td>
 						    <td> </td>

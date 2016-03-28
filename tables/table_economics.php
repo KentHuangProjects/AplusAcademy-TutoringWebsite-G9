@@ -65,23 +65,23 @@
 				        </tr>
 				        <tr>
 					        <td>Roger Zhang</td>
-					        <td><a href="registration_successful.html">Microeconomics<br>6pm-8pm</a></td>
+					        <td><?php include ("tablesCheck.php"); ?>Microeconomics<br>6pm-8pm</a></td>
 					        <td> </td>
-					        <td><a href="registration_successful.html">Microeconomics <br>6pm-8pm </a></td>
+					        <td><?php include ("tablesCheck.php"); ?>Microeconomics <br>6pm-8pm </a></td>
 					        <td> </td>
-					        <td><a href="registration_successful.html">Microeconomics <br>6pm-8pm </a></td>
-					        <td><a href="registration_successful.html">Entrepreneurship <br>9am-12pm </a></td>
-					        <td><a href="registration_successful.html">Entrepreneurs<br>12am-3pm</a></td>
+					        <td><?php include ("tablesCheck.php"); ?>Microeconomics <br>6pm-8pm </a></td>
+					        <td><?php include ("tablesCheck.php"); ?>Entrepreneurship <br>9am-12pm </a></td>
+					        <td><?php include ("tablesCheck.php"); ?>Entrepreneurs<br>12am-3pm</a></td>
 				        </tr>
 				        <tr>
 					        <td>Luke Lee</td>
 					        <td></td>
-					        <td><a href="registration_successful.html">Macroeconomics <br>7pm-9pm</a> </td>
+					        <td><?php include ("tablesCheck.php"); ?>Macroeconomics <br>7pm-9pm</a> </td>
 					        <td> </td>
-					        <td><a href="registration_successful.html">Macroeconomics <br>7pm-9pm </a></td>
+					        <td><?php include ("tablesCheck.php"); ?>Macroeconomics <br>7pm-9pm </a></td>
 					        <td> </td>
 					        <td> </td>
-					        <td><a href="registration_successful.html">Entrepreneurs<br>9am-12pm</a></td>
+					        <td><?php include ("tablesCheck.php"); ?>Entrepreneurs<br>9am-12pm</a></td>
 				        </tr>
 			        </table>
 		        </div>
