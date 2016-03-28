@@ -10,7 +10,7 @@
 table{
 	border-collapse: collapse;									/*collapse borders of cells*/
 	margin:auto;
-	width:53%;
+	width:100%;
 	text-align:center;	
 	border:2px solid #000056;
 	table-layout: fixed;										/*Same format for five tables*/

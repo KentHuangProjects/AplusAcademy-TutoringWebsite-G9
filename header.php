@@ -1,7 +1,7 @@
 <!-- Main Header -->
         <div id="main-header">
             <div id="logo">
-                <a href="/index.php"><img src="/images/logo.jpg" height="80" width="80" alt="A+ Logo"></a>
+                <a href="index.php"><img src="images/logo.jpg" height="80" width="80" alt="A+ Logo"></a>
             </div>
 		        
 		    <div id="title">
@@ -89,53 +89,53 @@
 	    <!-- navigation -->
 	    <div class="wrapper">
 	        <ul id="navbar">
-		        <li><a href="/index.php">Home Page</a></li>
+		        <li><a href="index.php">Home Page</a></li>
 		        <li><a href="#">Subjects</a>
 			        <ul>
-				        <li class="subject"><a href="/subjects/subject_economy.html">Economics</a>
+				        <li class="subject"><a href="subjects/subject_economy.php">Economics</a>
                             <ul>
-					            <li><a href="/courses/courses_macroeconomics.html">Macro</a></li>
-							    <li><a href="/courses/courses_microeconomics.html">Micro</a></li>
-							    <li><a href="/courses/courses_entrepreneurship.html">Entrepreneurship</a></li>
+					            <li><a href="courses/courses_macroeconomics.php">Macro</a></li>
+							    <li><a href="courses/courses_microeconomics.php">Micro</a></li>
+							    <li><a href="courses/courses_entrepreneurship.php">Entrepreneurship</a></li>
 						    </ul>
 					    </li>
 
-					    <li class="subject"><a href="/subjects/subject_writing.php">Professional Writing</a>
+					    <li class="subject"><a href="subjects/subject_writing.php">Professional Writing</a>
 					        <ul>
-						        <li><a href="/courses/courses_essay.php">Essay</a></li>
-						        <li><a href="/courses/courses_report.php">Report</a></li>
-						        <li><a href="/courses/courses_thesis.php">Thesis</a></li>
+						        <li><a href="courses/courses_essay.php">Essay</a></li>
+						        <li><a href="courses/courses_report.php">Report</a></li>
+						        <li><a href="courses/courses_thesis.php">Thesis</a></li>
 					        </ul>
 					    </li>
 
-					    <li class="subject"><a href="/subjects/computer_science.php">Computer Science</a>
+					    <li class="subject"><a href="subjects/computer_science.php">Computer Science</a>
                             <ul>
-						        <li><a href="/courses/html.php">HTML</a></li>
-							    <li><a href="/courses/cplusplus.php">C++</a></li>
-							    <li><a href="/courses/java.php">Java</a></li>
+						        <li><a href="courses/html.php">HTML</a></li>
+							    <li><a href="courses/cplusplus.php">C++</a></li>
+							    <li><a href="courses/java.php">Java</a></li>
 						    </ul>
 					    </li>
 
-					    <li class="subject"><a href="/subjects/subject_math.html">Math</a>
+					    <li class="subject"><a href="subjects/subject_math.php">Math</a>
                             <ul>
-						        <li><a href="/courses/courses_calculus.html">Calculus</a></li>
-						        <li><a href="/courses/courses_matrix.html">Matrix</a></li>
-						        <li><a href="/courses/courses_algebra.html">Algebra</a></li>
+						        <li><a href="courses/courses_calculus.php">Calculus</a></li>
+						        <li><a href="courses/courses_matrix.php">Matrix</a></li>
+						        <li><a href="courses/courses_algebra.php">Algebra</a></li>
 						    </ul>
 					    </li>
 
-					    <li class="subject"><a href="/subjects/subject_fitness.html">Fitness</a>
+					    <li class="subject"><a href="subjects/subject_fitness.php">Fitness</a>
                             <ul>
-						        <li><a href="/courses/courses_sports.html">Sports</a></li>
-						        <li><a href="/courses/courses_weight_training.html">Weight training</a></li>
-						        <li><a href="/courses/courses_dance.html">Dance</a></li>
+						        <li><a href="/courses/courses_sports.php">Sports</a></li>
+						        <li><a href="/courses/courses_weight_training.php">Weight training</a></li>
+						        <li><a href="/courses/courses_dance.php">Dance</a></li>
 						    </ul>
 					    </li>
 				    </ul>
 		        </li>
                 <li><a href="#">Forum</a></li>
-		        <li><a href="/career.php">Careers</a></li>
-		        <li><a href="/about.html">About Us</a></li>
-		        <li><a href="/contact_us.html">Contact Us</a></li>
+		        <li><a href="career.php">Careers</a></li>
+		        <li><a href="about.php">About Us</a></li>
+		        <li><a href="contact_us.php">Contact Us</a></li>
             </ul>
         </div>

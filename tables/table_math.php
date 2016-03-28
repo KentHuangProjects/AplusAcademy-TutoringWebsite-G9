@@ -32,9 +32,11 @@
         ?>
 
         <!-- Main content section -->
-        <br><br><br><br>
-        <hr>
-        <br><br><br>
+        <div id="main-content">
+		    <div id="header">
+			    <h1>Course Schedule</h1>
+		    </div>
+            <br>
 			<div id ="tale4">
 				<table> 
 					 <caption id ="caption4">Math</caption>
@@ -74,12 +76,12 @@
 					    </tr>
 			    </table>
 		    </div>
-		    <hr id="aline">
+		</div>
 
-		   	<!-- Main Footer -->
-            <?php
-                include("../footer.php");
-            ?>
+		<!-- Main Footer -->
+        <?php
+            include("../footer.php");
+        ?>
 	</div>
 </body>
 </html>

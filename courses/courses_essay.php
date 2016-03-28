@@ -39,7 +39,7 @@
 		        </div>
 			
 		        <div class="imageandrating">
-			        <img src="images/LukeLee.jpg" alt="Luke Lee" height="144" width="119">
+			        <img src="images/LukeLee.jpg" alt="Luke Lee" height="163" width="122">
 		        </div>
 			
 		        <div class="tutordescrip">
@@ -47,12 +47,11 @@
 			        <p>Educational Background:<br>BoC, University of British Columbia</p><br>
 			        <p>Experience:<br>Senior Coordinator TD</p><br>
 			        <p>Motivation:<br>Genius is one percent inspiration, ninety-nine percent perspiration.<br>~Thomas Edison</p>
-
-		            <button type="button">Review button</button>
 		        </div>
 			
 			    <div class="review">
 			        <p>Review</p>
+                    <p>Luke is a nice and friendly guy. He teaches students with passion. I learn many useful writing techniques from him.<br>~Anonymous</p>
 			    </div>
 		    </div>
 			

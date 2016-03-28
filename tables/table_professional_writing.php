@@ -32,49 +32,51 @@
         ?>
 
         <!-- Main content section -->
-        <br><br><br><br>
-        <hr>
-        <br><br><br>
-        <div id ="tale2">
-	        <table> 
-	            <caption id ="caption2">Professional Writing</caption>
-	                <tr>
-		                <th>Tutors</th>
-		                <th colspan="7">Times</th>
-	                </tr>
-	                <tr>
-		                <td> </td>
-		                <td>Monday</td>
-		                <td>Tuesday</td>
-		                <td>Wednesday </td>
-		                <td>Thursday </td>
-		                <td>Friday </td>
-		                <td>Saturday </td>
-		                <td>Sunday </td>
-	                </tr>
-	                <tr>
-		                <td>Luke Lee</td>
-		                <td><a href="registration_successful.html">Essay Writing <br>5pm-6pm</a></td>
-		                <td></td>
-		                <td><a href="registration_successful.html">Essay Writing  <br>5pm-6pm </a></td>
-		                <td> </td>
-		                <td> </td>
-		                <td><a href="registration_successful.html">Report Writing <br>12pm-2pm </a> </td>
-		                <td><a href="registration_successful.html">Report Writing <br>12pm-2pm </a></td>
-	                </tr>
-	                <tr>
-		                <td>Roger Zhang </td>
-		                <td></td>
-		                <td><a href="registration_successful.html">Thesis <br>6pm-8pm</a> </td>
-		                <td> </td>
-		                <td><a href="registration_successful.html">Thesis <br>6pm-8pm  </a></td>
-		                <td> </td>
-		                <td><a href="registration_successful.html">Thesis <br>12pm-2pm </a> </td>
-		                <td> </td>
-	                </tr>
-	          </table>
+        <div id="main-content">
+		    <div id="header">
+			    <h1>Course Schedule</h1>
+		    </div>
+            <br>
+            <div id ="tale2">
+	            <table> 
+	                <caption id ="caption2">Professional Writing</caption>
+	                    <tr>
+		                    <th>Tutors</th>
+		                    <th colspan="7">Times</th>
+	                    </tr>
+	                    <tr>
+		                    <td> </td>
+		                    <td>Monday</td>
+		                    <td>Tuesday</td>
+		                    <td>Wednesday </td>
+		                    <td>Thursday </td>
+		                    <td>Friday </td>
+		                    <td>Saturday </td>
+		                    <td>Sunday </td>
+	                    </tr>
+	                    <tr>
+		                    <td>Luke Lee</td>
+		                    <td><a href="registration_successful.html">Essay Writing <br>5pm-6pm</a></td>
+		                    <td></td>
+		                    <td><a href="registration_successful.html">Essay Writing  <br>5pm-6pm </a></td>
+		                    <td> </td>
+		                    <td> </td>
+		                    <td><a href="registration_successful.html">Report Writing <br>12pm-2pm </a> </td>
+		                    <td><a href="registration_successful.html">Report Writing <br>12pm-2pm </a></td>
+	                    </tr>
+	                    <tr>
+		                    <td>Roger Zhang </td>
+		                    <td></td>
+		                    <td><a href="registration_successful.html">Thesis <br>6pm-8pm</a> </td>
+		                    <td> </td>
+		                    <td><a href="registration_successful.html">Thesis <br>6pm-8pm  </a></td>
+		                    <td> </td>
+		                    <td><a href="registration_successful.html">Thesis <br>12pm-2pm </a> </td>
+		                    <td> </td>
+	                    </tr>
+	              </table>
+		    </div>
 		</div>
-		<hr id="aline">
 
 		<!-- Main Footer -->
         <?php
