@@ -6,7 +6,7 @@
 		        
 		    <div id="title">
                 <h1>Aplus Academy</h1>
-                <h2>Plan Learn Utilize Succeed</h2>
+                <h2>Plan Learn Utilize Succeedy</h2>
 		    </div>
 			           
                     <div id="signin">
