@@ -58,21 +58,21 @@
 
 		    <div class="row2">
 			
-			    <a href="courses_macroeconomics.html">
+			    <a href="../courses/courses_macroeconomics.php">
 			    <div id ="c1" class="courses">
 			    <h3 id="c1title">Macroeconomics</h3>
 			    <p>Macroeconomics is the study of economy as a whole. Our course deals with performance, structure, behavior and decision-making markets that is on national, global and reginal scale.</p>
 			    </div>
 			    </a>
 			
-			    <a href="courses_microeconomics.html">
+			    <a href="../courses/courses_microeconomics.php">
 			    <div id ="c2" class="courses">
 			    <h3 id="c2title">Microeconomics</h3>
 			    <p>Microeconomics analyzes the market behavior of individual consumers and firms in an attempt to understand the decision-making process of firms and households.</p>
 			    </div>
 			    </a>
 			
-			    <a href="courses_entrepreneurship.html">
+			    <a href="../courses/courses_entrepreneurship.php">
 			    <div id ="c3" class="courses">
 			    <h3 id="c3title">Entrepreneurship</h3>
 			    <p>Want to start your own business? We can help! With our guide, you will learn how to start, run and grow you business. We also provide feedbacks on your business proposal.</p>

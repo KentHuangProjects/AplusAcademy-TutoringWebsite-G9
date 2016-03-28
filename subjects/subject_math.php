@@ -59,21 +59,21 @@
 
 		    <div class="row2">
 			
-			    <a href="courses_algebra.html">
+			    <a href="../courses/courses_algebra.php">
 			    <div id ="c1" class="courses">
 			    <h3 id="c1title">Algebra</h3>
 			    <p>Algebra is the language through which we describe patterns. As opposed to having to do something over and over again, algebra gives you a simple way to express that repetitive process. It's also seen as a "gatekeeper" subject.</p>
 			    </div>
 			    </a>
 			
-			    <a href="courses_calculus.html">
+			    <a href="../courses/courses_calculus.php">
 			    <div id ="c2" class="courses">
 			    <h3 id="c2title">Calculus</h3>
 			    <p>Calculus is a part of modern mathematics education. A course in calculus is a gateway to other, more advanced courses in mathematics devoted to the study of functions and limits, broadly called mathematical analysis.</p>
 			    </div>
 			    </a>
 			
-			    <a href="courses_matrix.html">
+			    <a href="../courses/courses_matrix.php">
 			    <div id ="c3" class="courses">
 			    <h3 id="c3title">Matrix</h3>
 			    <p>Matrix, a major branch of numerical analysis, is devoted to the development of efficient algorithms for matrix computations, a subject that is centuries old and is today an expanding area of research.</p>
